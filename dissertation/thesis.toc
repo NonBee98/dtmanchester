@@ -1,0 +1,47 @@
+\contentsline {chapter}{Abstract}{iii}{chapter*.2}% 
+\contentsline {chapter}{Declaration}{iv}{chapter*.2}% 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Aims and Objectives}{2}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Description of the Work}{3}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Report Structure}{4}{section.1.5}% 
+\contentsline {chapter}{\numberline {2}Background and Related Works}{5}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Stock Market and Stock Market Data}{5}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Time-Series Analysis for Stock Market Data}{6}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Time-series data}{6}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Stock data analysis}{7}{subsection.2.2.2}% 
+\contentsline {section}{\numberline {2.3}Literature Review}{8}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Related Works}{10}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Time-series data transformation}{11}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Clustering algorithms}{12}{subsection.2.4.2}% 
+\contentsline {chapter}{\numberline {3}Research Methodology}{15}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Preliminary}{15}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Problem Definition}{15}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Guideline for this project}{15}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}Stock Data Preprocessing}{17}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Stock Data Representation}{17}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Stock Data Clustering}{18}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Evaluation}{18}{section.3.5}% 
+\contentsline {chapter}{\numberline {4}Data Description and Preprocessing}{19}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Data description}{19}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Time-series preprocessing}{20}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Time-series denoising}{20}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Time-serie normalization}{23}{subsection.4.2.2}% 
+\contentsline {chapter}{\numberline {5}Time-Series Representations}{26}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Static Feature Representation}{27}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Statistical features representations}{27}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Bag-of-patterns representation}{28}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}Path signature representation}{31}{subsection.5.1.3}% 
+\contentsline {section}{\numberline {5.2}Dynamic Feature Representations}{33}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Random convolutional kernels based sequence representation}{34}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Self-supervised time-series representation learning}{36}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}Shape-preserved representations}{38}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Semi-Shape-Preserved Clustering Representation}{43}{chapter.6}% 
+\contentsline {chapter}{\numberline {7}Experiment and Evaluation}{44}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Experimental Settings}{44}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Numerical Metrics}{44}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Measures to counteract the effect of randomness}{46}{subsection.7.1.2}% 
+\contentsline {subsection}{\numberline {7.1.3}The choice of group centers}{46}{subsection.7.1.3}% 
+\contentsline {section}{\numberline {7.2}Comparison of PIP, PAA and Down Sampling}{47}{section.7.2}% 
+\contentsline {chapter}{Bibliography}{48}{figure.7.3}% 

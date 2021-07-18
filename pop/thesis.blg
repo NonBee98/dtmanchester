@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+The style file: acm.bst
+Database file #1: bibliography/bibliography.bib
+Warning--empty journal in chung2001flexible
+Warning--can't use both volume and number fields in ester1996density
+Warning--can't use both volume and number fields in macqueen1967some
+Warning--can't use both volume and number fields in sharan2000click
+Warning--empty journal in yi2000fast
+You've used 42 entries,
+            2253 wiz_defined-function locations,
+            789 strings with 11244 characters,
+and the built_in function-call counts, 15090 in all, are:
+= -- 1500
+> -- 674
+< -- 0
++ -- 289
+- -- 236
+* -- 1242
+:= -- 2387
+add.period$ -- 124
+call.type$ -- 42
+change.case$ -- 239
+chr.to.int$ -- 0
+cite$ -- 47
+duplicate$ -- 512
+empty$ -- 1204
+format.name$ -- 236
+if$ -- 3135
+int.to.chr$ -- 0
+int.to.str$ -- 42
+missing$ -- 42
+newline$ -- 211
+num.names$ -- 84
+pop$ -- 213
+preamble$ -- 1
+purify$ -- 197
+quote$ -- 0
+skip$ -- 351
+stack$ -- 0
+substring$ -- 1130
+swap$ -- 157
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 168
+warning$ -- 5
+while$ -- 158
+width$ -- 44
+write$ -- 420
+(There were 5 warnings)

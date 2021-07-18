@@ -1,0 +1,29 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Overview}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Motivation}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Aims and Objectives}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Description of the Work}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Report Structure}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{Background and Related Works}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Literature Review}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Related Works}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Time-series data compression}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Path signature}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{Clustering algorithms}{section.2.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Research Methodology}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Preprocessing}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Feature Extraction}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Pattern Discovery}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{Pattern Matching}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{Evaluation}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Ethics and Professional Considerations}{}% 19
+\BOOKMARK [0][-]{chapter.5}{Risk Consideration}{}% 20
+\BOOKMARK [0][-]{chapter.6}{Project Evaluation}{}% 21
+\BOOKMARK [1][-]{section.6.1}{Preprocessing Phase Evaluation}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.2}{Feature Extraction Phase Evaluation}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.3}{Pattern Discovery Phase Evaluation}{chapter.6}% 24
+\BOOKMARK [1][-]{section.6.4}{Pattern Matching Phase Evaluation}{chapter.6}% 25
+\BOOKMARK [0][-]{chapter.7}{Project Plan}{}% 26
+\BOOKMARK [1][-]{section.7.1}{Progress}{chapter.7}% 27
+\BOOKMARK [1][-]{section.7.2}{Future Work}{chapter.7}% 28
+\BOOKMARK [0][-]{figure.7.1}{Bibliography}{}% 29

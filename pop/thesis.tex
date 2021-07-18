@@ -1,0 +1,65 @@
+%-- coding: UTF-8 --
+\documentclass[11pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{sectsty} % Enables custom section titles
+\include{thesis.preamble}
+\usepackage{algorithmic}
+\usepackage{amstext}
+\usepackage{tikz}
+\usepackage{amsmath} 
+\usepackage{amsfonts,amssymb}
+\usepackage[linesnumbered,ruled,lined]{algorithm2e}
+\usetikzlibrary{arrows,decorations.pathmorphing,fit,positioning}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]   
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{18pt}{\Huge}   
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks = true, %Colours links instead of ugly boxes
+  urlcolor = blue, %Colour for external hyperlinks
+  linkcolor = blue, %Colour of internal links
+  citecolor = red %Colour of citations
+}
+\graphicspath{ {images/} }
+
+
+
+\begin{document}
+
+\title{Stock Price Moving Pattern Classification and Recognition \\ Project Overview and Plan}
+
+\author{Yuyang Liu}
+\submitdate{May 07 2021}
+\degree{Advanced Computer Science MSc}
+\studentid{10660111}
+\supervisor{Dr. Xiaojun Zeng}
+
+\normallinespacing
+\maketitle
+
+% delete the two declaration sentences in thesis.sty if not applicable. 
+
+% There is a maximum limit of 15,000 words without exceeding 40 pages (A4 sides) for the main body of the dissertation that will be submitted in PDF. This limitation includes the bibliography and excludes cover/front pages (e.g., abstract, acknowledgement, table of contents) and excludes the appendices, listing of any codes or any other supporting documentation.
+% Note: Your dissertation should not exceed the word and page limits. You do not have to use up your word limit to get a good grade; never `pad out' your dissertation, this will only annoy the markers.
+
+\body
+\input{introduction/introduction}
+\input{background/background}
+
+% body of thesis comes here
+\input{body/body}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{acm}
+\bibliography{bibliography/bibliography}
+
+
+\end{document}

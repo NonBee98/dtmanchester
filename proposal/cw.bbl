@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{grover2016node2vec}
+{\sc Grover, A., and Leskovec, J.}
+\newblock node2vec: Scalable feature learning for networks.
+\newblock In {\em Proceedings of the 22nd ACM SIGKDD international conference
+  on Knowledge discovery and data mining\/} (2016), pp.~855--864.
+
+\bibitem{lerer2019pytorch}
+{\sc Lerer, A., Wu, L., Shen, J., Lacroix, T., Wehrstedt, L., Bose, A., and
+  Peysakhovich, A.}
+\newblock Pytorch-biggraph: A large-scale graph embedding system.
+\newblock {\em arXiv preprint arXiv:1903.12287\/} (2019).
+
+\bibitem{mikolov2013efficient}
+{\sc Mikolov, T., Chen, K., Corrado, G., and Dean, J.}
+\newblock Efficient estimation of word representations in vector space.
+\newblock {\em arXiv preprint arXiv:1301.3781\/} (2013).
+
+\bibitem{perozzi2014deepwalk}
+{\sc Perozzi, B., Al-Rfou, R., and Skiena, S.}
+\newblock Deepwalk: Online learning of social representations.
+\newblock In {\em Proceedings of the 20th ACM SIGKDD international conference
+  on Knowledge discovery and data mining\/} (2014), pp.~701--710.
+
+\bibitem{tang2015line}
+{\sc Tang, J., Qu, M., Wang, M., Zhang, M., Yan, J., and Mei, Q.}
+\newblock Line: Large-scale information network embedding.
+\newblock In {\em Proceedings of the 24th international conference on world
+  wide web\/} (2015), pp.~1067--1077.
+
+\bibitem{yao2019revisiting}
+{\sc Yao, H., Tang, X., Wei, H., Zheng, G., and Li, Z.}
+\newblock Revisiting spatial-temporal similarity: A deep learning framework for
+  traffic prediction.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence\/} (2019), vol.~33, pp.~5668--5675.
+
+\end{thebibliography}

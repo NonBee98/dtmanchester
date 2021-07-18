@@ -1,0 +1,244 @@
+\begin{thebibliography}{10}
+
+\bibitem{aghabozorgi2014stock}
+{\sc Aghabozorgi, S., and Teh, Y.~W.}
+\newblock Stock market co-movement assessment using a three-phase clustering
+  method.
+\newblock {\em Expert Systems with Applications 41}, 4 (2014), 1301--1314.
+
+\bibitem{aastrom1969choice}
+{\sc {\AA}str{\"o}m, K.~J.}
+\newblock On the choice of sampling rates in parametric identification of time
+  series.
+\newblock {\em Information Sciences 1}, 3 (1969), 273--278.
+
+\bibitem{barbara2000using}
+{\sc Barbar{\'a}, D., and Chen, P.}
+\newblock Using the fractal dimension to cluster datasets.
+\newblock In {\em Proceedings of the sixth ACM SIGKDD international conference
+  on Knowledge discovery and data mining\/} (2000), pp.~260--264.
+
+\bibitem{basalto2005clustering}
+{\sc Basalto, N., Bellotti, R., De~Carlo, F., Facchi, P., and Pascazio, S.}
+\newblock Clustering stock market companies via chaotic map synchronization.
+\newblock {\em Physica A: Statistical Mechanics and its Applications 345}, 1-2
+  (2005), 196--206.
+
+\bibitem{basu2010use}
+{\sc Basu, J.~K., Bhattacharyya, D., and Kim, T.-h.}
+\newblock Use of artificial neural network in pattern recognition.
+\newblock {\em International journal of software engineering and its
+  applications 4}, 2 (2010).
+
+\bibitem{bezdek1984fcm}
+{\sc Bezdek, J.~C., Ehrlich, R., and Full, W.}
+\newblock Fcm: The fuzzy c-means clustering algorithm.
+\newblock {\em Computers \& geosciences 10}, 2-3 (1984), 191--203.
+
+\bibitem{boedihardjo2016signature}
+{\sc Boedihardjo, H., Geng, X., Lyons, T., and Yang, D.}
+\newblock The signature of a rough path: uniqueness.
+\newblock {\em Advances in Mathematics 293\/} (2016), 720--737.
+
+\bibitem{calinski1974dendrite}
+{\sc Cali{\'n}ski, T., and Harabasz, J.}
+\newblock A dendrite method for cluster analysis.
+\newblock {\em Communications in Statistics-theory and Methods 3}, 1 (1974),
+  1--27.
+
+\bibitem{chen1958integration}
+{\sc Chen, K.-T.}
+\newblock Integration of paths--a faithful representation of paths by
+  noncommutative formal power series.
+\newblock {\em Transactions of the American Mathematical Society 89}, 2 (1958),
+  395--407.
+
+\bibitem{chen2016intelligent}
+{\sc Chen, T.-l., and Chen, F.-y.}
+\newblock An intelligent pattern recognition model for supporting investment
+  decisions in stock market.
+\newblock {\em Information Sciences 346\/} (2016), 261--274.
+
+\bibitem{chung2001flexible}
+{\sc Chung, F.-L., Fu, T.-C., Luk, R., Ng, V., et~al.}
+\newblock Flexible time series pattern matching based on perceptually important
+  points.
+
+\bibitem{comaniciu2002mean}
+{\sc Comaniciu, D., and Meer, P.}
+\newblock Mean shift: A robust approach toward feature space analysis.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence
+  24}, 5 (2002), 603--619.
+
+\bibitem{dave1992adaptive}
+{\sc Dave, R.~N., and Bhaswan, K.}
+\newblock Adaptive fuzzy c-shells clustering and detection of ellipses.
+\newblock {\em IEEE Transactions on Neural Networks 3}, 5 (1992), 643--662.
+
+\bibitem{davies1979cluster}
+{\sc Davies, D.~L., and Bouldin, D.~W.}
+\newblock A cluster separation measure.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  2 (1979), 224--227.
+
+\bibitem{ester1996density}
+{\sc Ester, M., Kriegel, H.-P., Sander, J., Xu, X., et~al.}
+\newblock A density-based algorithm for discovering clusters in large spatial
+  databases with noise.
+\newblock In {\em Kdd\/} (1996), vol.~96, pp.~226--231.
+
+\bibitem{fisher1987knowledge}
+{\sc Fisher, D.~H.}
+\newblock Knowledge acquisition via incremental conceptual clustering.
+\newblock {\em Machine learning 2}, 2 (1987), 139--172.
+
+\bibitem{fu2011review}
+{\sc Fu, T.-c.}
+\newblock A review on time series data mining.
+\newblock {\em Engineering Applications of Artificial Intelligence 24}, 1
+  (2011), 164--181.
+
+\bibitem{fu2001pattern}
+{\sc Fu, T.-c., Chung, F.-l., Ng, V., and Luk, R.}
+\newblock Pattern discovery from stock time series using self-organizing maps.
+\newblock In {\em Workshop Notes of KDD2001 Workshop on Temporal Data Mining\/}
+  (2001), vol.~1, Citeseer.
+
+\bibitem{gyurko2013extracting}
+{\sc Gyurk{\'o}, L.~G., Lyons, T., Kontkowski, M., and Field, J.}
+\newblock Extracting information from the signature of a financial data stream.
+\newblock {\em arXiv preprint arXiv:1307.7244\/} (2013).
+
+\bibitem{hu2015stock}
+{\sc Hu, Y., Feng, B., Zhang, X., Ngai, E., and Liu, M.}
+\newblock Stock trading rule discovery with an evolutionary trend following
+  model.
+\newblock {\em Expert Systems with Applications 42}, 1 (2015), 212--222.
+
+\bibitem{keogh2001dimensionality}
+{\sc Keogh, E., Chakrabarti, K., Pazzani, M., and Mehrotra, S.}
+\newblock Dimensionality reduction for fast similarity search in large time
+  series databases.
+\newblock {\em Knowledge and information Systems 3}, 3 (2001), 263--286.
+
+\bibitem{kohonen1990self}
+{\sc Kohonen, T.}
+\newblock The self-organizing map.
+\newblock {\em Proceedings of the IEEE 78}, 9 (1990), 1464--1480.
+
+\bibitem{kong2020pattern}
+{\sc Kong, A., Azencott, R., and Zhu, H.}
+\newblock Pattern recognition in trading behaviors before stock price jumps:
+  new method based on multivariate time series classification.
+\newblock {\em arXiv preprint arXiv:2011.04939\/} (2020).
+
+\bibitem{leigh2002stock}
+{\sc Leigh, W., Modani, N., Purvis, R., and Roberts, T.}
+\newblock Stock market trading rule discovery using technical charting
+  heuristics.
+\newblock {\em Expert Systems with Applications 23}, 2 (2002), 155--159.
+
+\bibitem{leigh2002forecasting}
+{\sc Leigh, W., Purvis, R., and Ragusa, J.~M.}
+\newblock Forecasting the nyse composite index with technical analysis, pattern
+  recognizer, neural network, and genetic algorithm: a case study in romantic
+  decision support.
+\newblock {\em Decision support systems 32}, 4 (2002), 361--377.
+
+\bibitem{li2018stock}
+{\sc Li, H., Shen, Y., and Zhu, Y.}
+\newblock Stock price prediction using attention-based multi-input lstm.
+\newblock In {\em Asian Conference on Machine Learning\/} (2018), PMLR,
+  pp.~454--469.
+
+\bibitem{liao2008mining}
+{\sc Liao, S.-H., Ho, H.-h., and Lin, H.-w.}
+\newblock Mining stock category association and cluster on taiwan stock market.
+\newblock {\em Expert Systems with Applications 35}, 1-2 (2008), 19--29.
+
+\bibitem{lyons2014rough}
+{\sc Lyons, T.}
+\newblock Rough paths, signatures and the modelling of functions on streams.
+\newblock {\em arXiv preprint arXiv:1405.4537\/} (2014).
+
+\bibitem{macqueen1967some}
+{\sc MacQueen, J., et~al.}
+\newblock Some methods for classification and analysis of multivariate
+  observations.
+\newblock In {\em Proceedings of the fifth Berkeley symposium on mathematical
+  statistics and probability\/} (1967), vol.~1, Oakland, CA, USA, pp.~281--297.
+
+\bibitem{nanda2010clustering}
+{\sc Nanda, S., Mahanty, B., and Tiwari, M.}
+\newblock Clustering indian stock market data for portfolio management.
+\newblock {\em Expert Systems with Applications 37}, 12 (2010), 8793--8798.
+
+\bibitem{park2009simple}
+{\sc Park, H.-S., and Jun, C.-H.}
+\newblock A simple and fast algorithm for k-medoids clustering.
+\newblock {\em Expert systems with applications 36}, 2 (2009), 3336--3341.
+
+\bibitem{rasmussen1999infinite}
+{\sc Rasmussen, C.~E., et~al.}
+\newblock The infinite gaussian mixture model.
+\newblock In {\em NIPS\/} (1999), vol.~12, pp.~554--560.
+
+\bibitem{rousseeuw1987silhouettes}
+{\sc Rousseeuw, P.~J.}
+\newblock Silhouettes: a graphical aid to the interpretation and validation of
+  cluster analysis.
+\newblock {\em Journal of computational and applied mathematics 20\/} (1987),
+  53--65.
+
+\bibitem{sharan2000click}
+{\sc Sharan, R., and Shamir, R.}
+\newblock Click: a clustering algorithm with applications to gene expression
+  analysis.
+\newblock In {\em Proc Int Conf Intell Syst Mol Biol\/} (2000), vol.~8, p.~16.
+
+\bibitem{wang1997sting}
+{\sc Wang, W., Yang, J., Muntz, R., et~al.}
+\newblock Sting: A statistical information grid approach to spatial data
+  mining.
+\newblock In {\em VLDB\/} (1997), vol.~97, pp.~186--195.
+
+\bibitem{wei2012exotic}
+{\sc Wei, J., and Huang, J.}
+\newblock An exotic long-term pattern in stock price dynamics.
+\newblock {\em PLoS One 7}, 12 (2012), e51666.
+
+\bibitem{xie2016fully}
+{\sc Xie, Z., Sun, Z., Jin, L., Feng, Z., and Zhang, S.}
+\newblock Fully convolutional recurrent network for handwritten chinese text
+  recognition.
+\newblock In {\em 2016 23rd International Conference on Pattern Recognition
+  (ICPR)\/} (2016), IEEE, pp.~4011--4016.
+
+\bibitem{yang2017developing}
+{\sc Yang, W., Lyons, T., Ni, H., Schmid, C., and Jin, L.}
+\newblock Developing the path signature methodology and its application to
+  landmark-based human action recognition.
+\newblock {\em arXiv preprint arXiv:1707.03993\/} (2017).
+
+\bibitem{yi2000fast}
+{\sc Yi, B.-K., and Faloutsos, C.}
+\newblock Fast time sequence indexing for arbitrary lp norms.
+
+\bibitem{zhang2017stock}
+{\sc Zhang, L., Aggarwal, C., and Qi, G.-J.}
+\newblock Stock price prediction via discovering multi-frequency trading
+  patterns.
+\newblock In {\em Proceedings of the 23rd ACM SIGKDD international conference
+  on knowledge discovery and data mining\/} (2017), pp.~2141--2149.
+
+\bibitem{zhang1996birch}
+{\sc Zhang, T., Ramakrishnan, R., and Livny, M.}
+\newblock Birch: an efficient data clustering method for very large databases.
+\newblock {\em ACM sigmod record 25}, 2 (1996), 103--114.
+
+\bibitem{zhang2011novel}
+{\sc Zhang, X., Liu, J., Du, Y., and Lv, T.}
+\newblock A novel clustering method on time series data.
+\newblock {\em Expert Systems with Applications 38}, 9 (2011), 11891--11900.
+
+\end{thebibliography}

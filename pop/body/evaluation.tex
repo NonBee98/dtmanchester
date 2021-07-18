@@ -1,0 +1,63 @@
+\chapter{Project Evaluation}
+\label{ch:evaluation}
+This chapter introduces the evaluation methods and criteria used in this project.
+As mentioned in section \ref{sec:Evaluation}, we will examine each pahse and the final outcome separately. Details can be found below.
+
+\section{Preprocessing Phase Evaluation}
+The evaluation of this phase is relatively intuitive since it is mainly about data review. We will compare the original data and the processed data with plots.
+
+\section{Feature Extraction Phase Evaluation}
+In this phase, we will mainly examine the effect of different data compression algorithms. Similar to preprocessing phase, the evaluation will be conducted in the form of diagram since there is no numerical method that can directly score them. The deeper examination of both data compression and path signature will be conducted in pattern discovery phase, where objective numerical standards can be applied.
+
+\section{Pattern Discovery Phase Evaluation}
+In this phase, we will experiment with different combination of data representation methods (path signature and simple concatenation), compression algorithms (PPA and PIP) and clustering algorithms (to be decided). The assessment criteria are the common metrics used for clustering algorithms without the requirement of ground truth class assignments, including:
+\begin{enumerate}
+    \item Silhouette Coefficient \cite{rousseeuw1987silhouettes}: for each data point, its silhouette coefficient is composed of two scores:
+    \begin{itemize}
+        \item \textbf{a:} the average distance between a data point and all other data points in the same cluster
+        \item \textbf{b:} the average distance between a data point and all other data points in the next nearest cluster
+    \end{itemize}
+    The Silhouette Coefficient s for a single data point is defined as follows, where s ranges from -1 to +1:
+    \begin{equation}
+        s = \frac{b-a}{\max(a,b)} 
+    \end{equation}
+    The final Silhouette Coefficient is defined as the mean of the Silhouette Coefficient of each data point. Higher value means better clustering results.
+    \item Calinski-Harabasz Index \cite{calinski1974dendrite}: given a data set E of size $n_E$, and the number of grouped clusters k, the Calinski-Harabasz score s is defined as follows:
+    \begin{equation}
+        s = \frac{tr(B_k)}{tr_(W_k)} \times \frac{n_E - k}{k-1}
+    \end{equation}
+    \begin{equation}
+        W_k = \sum_{q=1}^k \sum_{x \in C_q}(x-c_q)(x-c_q)^T
+    \end{equation}
+    \begin{equation}
+        B_k = \sum_{q=1}^k n_q(c_q-c_E)c_q-c_E)^T
+    \end{equation}
+    Where $tr(B_k)$ and $tr(W_k)$ are trace of the between group dispersion matrix and within-cluster dispersion matrix respectively, $C_q$ represents the points in cluster $q$, $c_q$ represents the centre of $q$, $c_E$ represents the centre of E and $n_q$ represents the number of points in q. Higher value means better clustering results.
+    \item Davies-Bouldin Index \cite{davies1979cluster}: given two cluster $C_i$ and $C_j$ generated from the same data set without overlapping, their similarity $R_{ij}$ is defined as follows:
+    \begin{equation}
+        R_{ij} = \frac{s_i + s_j}{d_{ij}}
+    \end{equation}
+    Where $s_i$ is the average distance between each point in cluster $i$ and the centroid of $i$, $d_{ij}$ is the distance between centroids of clusters $i$ and $j$. The Davies-Bouldin index is defined as:
+    \begin{equation}
+        DB = \frac{1}{k} \sum_{i=1}^k\max_{i\neq j}R_{ij}
+    \end{equation}
+    k is the number of clusters. Lower Davies-Bouldin index means better clustering results.
+\end{enumerate}
+
+\section{Pattern Matching Phase Evaluation}
+As mentioned in section \ref{sec:Matching}, the evaluation of this phase is mainly about vector similarity measurement. Given two pattern vectors $X$ and $Y$, the possible indexs we may use are:
+\begin{enumerate}
+    \item Euclidean distance:
+    \begin{equation}
+        d(X,Y) = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}
+    \end{equation}
+    \item Cosine value: 
+    \begin{equation}
+        cos(X,Y) = \frac{X \cdot Y}{\Vert X \Vert \Vert Y \Vert} = \frac{\sum_{i=1}^n x_i \times y_i}{\sqrt{\sum_{i=1}^n(x_i)^2} \times \sqrt{\sum_{i=1}^n(y_i)^2}}
+    \end{equation}
+    \item Pearson correlation coefficient:
+    \begin{equation}
+        PC(X,Y) = \frac{\sum_{i=1}^n (x_i - \bar{X}) \times (y_i - \bar{Y}) }{ \sqrt{\sum_{i=1}^n (x_i - \bar{X}) ^2} \times\sqrt{\sum_{i=1}^n (y_i - \bar{Y}) ^2}}
+    \end{equation}
+\end{enumerate}
+We then will examine the practical value of our method based on those indexs.

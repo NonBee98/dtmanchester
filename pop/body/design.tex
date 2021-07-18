@@ -1,0 +1,37 @@
+\chapter{Research Methodology}
+\label{ch:Methodology}
+
+\textbf{Problem Definition: }
+
+The main task of this project is to find the latent patterns of stock price changing. In this project, we define the stock price data as $X = (X_1, \cdots, X_N) \in \mathbb{R}^{N \times T \times D} $, where $X_m = (x_{m_1},\cdots, x_{m_T}) \in \mathbb{R}^{T \times D} $ represents all historical series of a single stock, N is the number of stocks, T is the number of time slices, D is the dimension of a single data.  We further divide the task into 6 sub-tasks: (1) time-series data preprocessing; (2) feature extraction; (3) pattern discovery; (4) pattern matching; (5) evaluation.
+
+
+\section{Preprocessing}
+\label{sec:Preprocessing}
+Data are the core part of data mining tasks, high quality data can improve the performance of models and algorithms. The aim this phase is processing the raw data we collect into more structured data, main steps include:
+\begin{enumerate}
+    \item Filling missing values: the collected data set may have incomplete data, this common problem is caused by various factors such as recordding error, market suspension, etc. In practice, there are several methods than can be used to fill missing values, including: (1) nearest neighborhood substitution; (2) mean value substitution; (3) regression, etc. In this project, we will use the second method. The missing value of a data point will be filled by the average of its nearest two neighbours.
+    \item Normalization: normalization is a standard process existing in most data mining tasks. It aims to change the values of all data features to a common scale while reserving the differences in the ranges of values. In terms of stock price data, it mainly helps to uniform monetary unit.
+    \item Segmentation: time-series data is numerical and continuous, it's crucial to split them into discrete pieces, especially in trend analysis \cite{fu2011review}. Common discretization methods include: (1) sliding window; (2) PIP based segmentation; (3) minimum message length (MML), etc. In this project, we aim to find the long-term pattern of stock price fluctuation, and hence will use sliding window method with the window size more than 6 months.
+\end{enumerate}
+
+\section{Feature Extraction}
+\label{sec:Feature}
+Feature engineering attempts to find the latent features of original data that can improve the performance of machine learning algorithms. We will use it in this project for two purposes:
+\begin{enumerate}
+    \item Data compression: as stated by \cite{fu2001pattern}, the large size of time series data could cause time complexity problem. They found that with the increment of the length of patterns, the run time of pattern discovery process grows exponentially. One method to mitigate this problem is compressing the sequence. In this project, we will use pecewise aggre-gate approximation (PAA) and perceptually important points (PIP) for data compression.
+    \item Data representation: each segment of our divided data is a matrix rather than a single vector. To fed them into clustering models, representation/transformation step is required. In this project, we will use the path signature as the representation method, and examine its effect in stock price analysis.
+\end{enumerate}
+It is worth noting that using data compression and representation algorithms may cause information loss. The effect will be examined in our experiment.
+
+\section{Pattern Discovery}
+\label{sec:Discovery}
+In this phase, we will follow the common approach in unsupervised pattern discovery tasks: using clustering algorithms to find interesting groups. In detail, we will apply several clustering algorithms to the generated features of all segments, each algorithm will produce a set of groups. The centre (numerical average) of each group will be treated as a unique pattern.
+
+\section{Pattern Matching}
+\label{sec:Matching}
+To examine whether the generated patterns have practical value, we then will apply pattern matching techniques to the test data. In detail, we will apply the same pre-processing pipeline to the test data. Since the generated patterns and each segment are vectors, we then will use common vector similarity measures methods such as pearson correlation coefficient and cosine similarity, with a pre-defined threshold, to check whether similar patterns can be find in test set.
+
+\section{Evaluation}
+\label{sec:Evaluation}
+The evaluation will be conducted in all 4 phases mentioned above. Differences are that the evaluation in phase \ref{sec:Preprocessing} and \ref{sec:Feature} are mainly in the form of visualization, while that in phase \ref{sec:Discovery} and \ref{sec:Matching} are mainly based on numerical comparison with objective criteria, details can be found in chapter \ref{ch:evaluation}.

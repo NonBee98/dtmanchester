@@ -1,0 +1,47 @@
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Declaration}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Overview}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Motivation}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Aims and Objectives}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.4}{Description of the Work}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.5}{Report Structure}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Background and Related Works}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Stock Market and Stock Market Data}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Time-Series Analysis for Stock Market Data}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Time-series data}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Stock data analysis}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Literature Review}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Related Works}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.4.1}{Time-series data transformation}{section.2.4}% 16
+\BOOKMARK [2][-]{subsection.2.4.2}{Clustering algorithms}{section.2.4}% 17
+\BOOKMARK [0][-]{chapter.3}{Research Methodology}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Preliminary}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.1.1}{Problem Definition}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.2}{Guideline for this project}{section.3.1}% 21
+\BOOKMARK [1][-]{section.3.2}{Stock Data Preprocessing}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.3}{Stock Data Representation}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.4}{Stock Data Clustering}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.5}{Evaluation}{chapter.3}% 25
+\BOOKMARK [0][-]{chapter.4}{Data Description and Preprocessing}{}% 26
+\BOOKMARK [1][-]{section.4.1}{Data description}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.2}{Time-series preprocessing}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{Time-series denoising}{section.4.2}% 29
+\BOOKMARK [2][-]{subsection.4.2.2}{Time-serie normalization}{section.4.2}% 30
+\BOOKMARK [0][-]{chapter.5}{Time-Series Representations}{}% 31
+\BOOKMARK [1][-]{section.5.1}{Static Feature Representation}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.1.1}{Statistical features representations}{section.5.1}% 33
+\BOOKMARK [2][-]{subsection.5.1.2}{Bag-of-patterns representation}{section.5.1}% 34
+\BOOKMARK [2][-]{subsection.5.1.3}{Path signature representation}{section.5.1}% 35
+\BOOKMARK [1][-]{section.5.2}{Dynamic Feature Representations}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{Random convolutional kernels based sequence representation}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{Self-supervised time-series representation learning}{section.5.2}% 38
+\BOOKMARK [1][-]{section.5.3}{Shape-preserved representations}{chapter.5}% 39
+\BOOKMARK [0][-]{chapter.6}{Semi-Shape-Preserved Clustering Representation}{}% 40
+\BOOKMARK [0][-]{chapter.7}{Experiment and Evaluation}{}% 41
+\BOOKMARK [1][-]{section.7.1}{Experimental Settings}{chapter.7}% 42
+\BOOKMARK [2][-]{subsection.7.1.1}{Numerical Metrics}{section.7.1}% 43
+\BOOKMARK [2][-]{subsection.7.1.2}{Measures to counteract the effect of randomness}{section.7.1}% 44
+\BOOKMARK [2][-]{subsection.7.1.3}{The choice of group centers}{section.7.1}% 45
+\BOOKMARK [1][-]{section.7.2}{Comparison of PIP, PAA and Down Sampling}{chapter.7}% 46
+\BOOKMARK [0][-]{figure.7.3}{Bibliography}{}% 47
