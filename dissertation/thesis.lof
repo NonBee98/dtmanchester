@@ -1,63 +1,77 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Sample of stock market data from \href {https://finance.yahoo.com/}{Yahoo}}}{6}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Electrocardiogram is an real word example of time-series data. Figure source: \href {https://www.chsbuffalo.org/services/electrocardiogram}{Catholic Health}}}{7}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Perceptron}}{18}{figure.2.3}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Simple feedforward network (source: \cite {rojas2013neural})}}{19}{figure.2.4}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of scaling and offset invariance (Source:\cite {batista2014cid})}}{22}{figure.3.1}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{22}{figure.3.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{22}{figure.3.1}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Example of local scaling invariance (Source:\cite {batista2014cid})}}{23}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Example of global scaling invariance (Source:\cite {batista2014cid})}}{23}{figure.3.3}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Sample data }}{20}{figure.4.1}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Curve chart}}}{20}{figure.4.1}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Candlestick chart}}}{20}{figure.4.1}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces DWT-based denoising process}}{22}{figure.4.2}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Sequences denoising results }}{22}{figure.4.3}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{22}{figure.4.3}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Denoised sequences}}}{22}{figure.4.3}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {DTW Alignment of original sequences}}}{22}{figure.4.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {DTW Alignment of denoised sequences}}}{22}{figure.4.3}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Results of normalization }}{24}{figure.4.4}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Min-Max normalization}}}{24}{figure.4.4}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Z-Score normalization}}}{24}{figure.4.4}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Comparison}}}{24}{figure.4.4}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces The effect of scaling }}{25}{figure.4.5}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{25}{figure.4.5}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sequence 1}}}{25}{figure.4.5}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Sequence 2}}}{25}{figure.4.5}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Min-Max normalization}}}{25}{figure.4.5}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Z-Score normalization}}}{25}{figure.4.5}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Sample data }}{28}{figure.4.1}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Curve chart}}}{28}{figure.4.1}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Candlestick chart}}}{28}{figure.4.1}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces DWT-based denoising process}}{30}{figure.4.2}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Sequences denoising results }}{30}{figure.4.3}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{30}{figure.4.3}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Denoised sequences}}}{30}{figure.4.3}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {DTW Alignment of original sequences}}}{30}{figure.4.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {DTW Alignment of denoised sequences}}}{30}{figure.4.3}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Results of normalization }}{32}{figure.4.4}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Min-Max normalization}}}{32}{figure.4.4}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Z-Score normalization}}}{32}{figure.4.4}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Comparison}}}{32}{figure.4.4}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The effect of scaling }}{32}{figure.4.5}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{32}{figure.4.5}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sequence 1}}}{32}{figure.4.5}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Sequence 2}}}{32}{figure.4.5}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Min-Max normalization}}}{32}{figure.4.5}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Z-Score normalization}}}{32}{figure.4.5}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Approaches for time-series data clustering}}{27}{figure.5.1}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of statistical features representation}}{28}{figure.5.2}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{28}{figure.5.2}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Statistical features representation}}}{28}{figure.5.2}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Example of SAX transformation}}{29}{figure.5.3}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of Bag-of-Patterns representation}}{30}{figure.5.4}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{30}{figure.5.4}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {BOP representation}}}{30}{figure.5.4}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Example of path signature representation}}{33}{figure.5.5}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{33}{figure.5.5}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Path signature representation}}}{33}{figure.5.5}% 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of random convolutional kernels}}{35}{figure.5.6}% 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Example of ROCKET representation}}{36}{figure.5.7}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{36}{figure.5.7}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ROCKET representation}}}{36}{figure.5.7}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Example of self-supervised representation learning}}{38}{figure.5.8}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{38}{figure.5.8}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {TST transformation}}}{38}{figure.5.8}% 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Compression results (n=50) }}{40}{figure.5.9}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Closing price of IBA in 2011}}}{40}{figure.5.9}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Comparison of 3 approaches}}}{40}{figure.5.9}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Result of linear downsampling}}}{40}{figure.5.9}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Result of PIP}}}{40}{figure.5.9}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Result of PAA}}}{40}{figure.5.9}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Approaches for time-series data clustering}}{35}{figure.5.1}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Example of statistical features representation}}{36}{figure.5.2}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{36}{figure.5.2}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Statistical features representation}}}{36}{figure.5.2}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Example of SAX transformation}}{37}{figure.5.3}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Example of Bag-of-Patterns representation}}{38}{figure.5.4}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{38}{figure.5.4}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {BOP representation}}}{38}{figure.5.4}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Example of path signature representation}}{41}{figure.5.5}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{41}{figure.5.5}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Path signature representation}}}{41}{figure.5.5}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Example of random convolutional kernels}}{43}{figure.5.6}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Example of ROCKET representation}}{44}{figure.5.7}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{44}{figure.5.7}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ROCKET representation}}}{44}{figure.5.7}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Example of self-supervised representation learning}}{46}{figure.5.8}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{46}{figure.5.8}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {TST transformation}}}{46}{figure.5.8}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Compression results (n=50) }}{48}{figure.5.9}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Closing price of IBA in 2011}}}{48}{figure.5.9}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Comparison of 3 approaches}}}{48}{figure.5.9}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Result of linear downsampling}}}{48}{figure.5.9}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Result of PIP}}}{48}{figure.5.9}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Result of PAA}}}{48}{figure.5.9}% 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Structure of traditional autoencoders}}{54}{figure.6.1}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces General structure of SSPCR}}{56}{figure.6.2}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The structure of Transformer's encoder}}{60}{figure.6.3}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Example of SSPCR representation }}{61}{figure.6.4}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{61}{figure.6.4}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SSPCR transformation}}}{61}{figure.6.4}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Barycenter}}{47}{figure.7.1}% 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Different sequence length}}{49}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011}}}{49}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2012}}}{49}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2013}}}{49}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2014}}}{49}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {2015}}}{49}{figure.7.2}% 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Visual comparison }}{50}{figure.7.3}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Raw 2011 (c=50)}}}{50}{figure.7.3}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PIP 2011 (c=50)}}}{50}{figure.7.3}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PAA 2011 (c=50)}}}{50}{figure.7.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Downsampling 2011 (c=50)}}}{50}{figure.7.3}% 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Barycenter}}{65}{figure.7.1}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Different sequence length}}{67}{figure.7.2}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011}}}{67}{figure.7.2}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2012}}}{67}{figure.7.2}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2013}}}{67}{figure.7.2}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2014}}}{67}{figure.7.2}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {2015}}}{67}{figure.7.2}% 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Visual comparison }}{68}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Raw 2011 (c=50)}}}{68}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PIP 2011 (c=50)}}}{68}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PAA 2011 (c=50)}}}{68}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Downsampling 2011 (c=50)}}}{68}{figure.7.3}% 

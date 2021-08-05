@@ -1,17 +1,144 @@
+import argparse
+import datetime as dt
+import json
 import logging as default_logging
 import math
+import os
+import pickle
+import random
 import sys
+import time
+from collections import Counter
 from datetime import date, datetime, timedelta
 
 import numpy as np
 import pandas as pd
-import seglearn as sgl
-from seglearn.transform import FeatureRep, FeatureRepMix, Segment
 import pywt
+import seglearn as sgl
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.utils.data
+from matplotlib.collections import LineCollection
+from pyts import datasets
+from pyts.approximation import (PiecewiseAggregateApproximation,
+                                SymbolicAggregateApproximation)
+from pyts.preprocessing import *
 from scipy import spatial
+from scipy.stats import norm
+from seglearn.feature_functions import *
+from seglearn.pipe import Pype
+from seglearn.transform import FeatureRep, FeatureRepMix, Segment
+from sklearn import cluster, covariance, manifold
+from sklearn.decomposition import TruncatedSVD
+from sklearn.metrics import *
+from sklearn.metrics import accuracy_score, confusion_matrix, f1_score
+from sklearn.preprocessing import StandardScaler
+from sklearn.utils import shuffle
+from torch import nn, optim
+from torch.distributions.beta import Beta
+from torch.distributions.binomial import Binomial
+# Cell
+from torch.distributions.geometric import Geometric
+from tsai import *
+from tsai.all import *
+from tsai.data.core import *
+from tsai.models.layers import *
+from tsai.models.utils import *
+from tsai.utils import *
+from tslearn import metrics, piecewise, preprocessing
+from tslearn.barycenters import (dtw_barycenter_averaging,
+                                 dtw_barycenter_averaging_subgradient,
+                                 euclidean_barycenter, softdtw_barycenter)
+from tslearn.clustering import KShape, silhouette_score
+from tslearn.preprocessing import (TimeSeriesResampler,
+                                   TimeSeriesScalerMeanVariance)
 
 INFINITY = float('inf')
 
+
+def load_data(year):
+    train_folder = './data/train/'
+    # test_folder = './data/test/'
+    stocklist = json.load(open(train_folder+'stockNames.json'))
+    folder = train_folder+str(year)+'/'
+    datas = {}
+    dates = {}
+    for stock in stocklist:
+        file = folder+stock+'.csv'
+        data = pd.read_csv(file)
+        data, date = splite_data(data, -1)
+        datas[stock] = data
+        dates[stock] = date
+    return stocklist, datas, dates
+
+
+def pre_process_data(datas, seq_len=None, denosing=True, normalization=True, dimension=[1], compression='pip'):
+    processed_data = []
+    if seq_len is None:
+        shortest = float('inf')
+        for v in datas.values():
+            if len(v) < shortest:
+                shortest = len(v)
+        seq_len = shortest
+
+    downsample = preprocessing.TimeSeriesResampler(seq_len)
+    ts_paa = piecewise.PiecewiseAggregateApproximation(n_segments=seq_len)
+
+    for v in datas.values():
+        data = v[:, 1]
+        if denosing:
+            data = wavelet_denoising(data)
+        data = data[:, np.newaxis]
+        if compression == 'pip':
+            data = data[pip(data[:, 0], seq_len)]
+        elif compression == 'paa':
+            data = ts_paa.fit_transform(data[np.newaxis, :]).squeeze()
+        else:
+            data = downsample.fit_transform(data[np.newaxis, :]).squeeze()
+        if normalization:
+            data = zero_mean_normalise(data)
+        processed_data.append(data.ravel())
+    processed_data = np.array(processed_data)
+    return processed_data
+
+
+def getNames(nums, indexes):
+    ret = []
+    for i in range(len(indexes)):
+        if indexes[i]:
+            ret.append(nums[i])
+    return ret
+
+
+def get_fake_sample(data):
+    sample_nums = data.shape[0]
+    series_len = data.shape[1]
+    mask = np.ones(shape=[sample_nums, series_len])
+    rand_list = np.zeros(shape=[sample_nums, series_len])
+
+    fake_position_nums = int(series_len * 0.2)
+    fake_position = np.random.randint(low=0, high=series_len, size=[
+                                      sample_nums, fake_position_nums])
+
+    for i in range(fake_position.shape[0]):
+        for j in range(fake_position.shape[1]):
+            mask[i, fake_position[i, j]] = 0
+
+    for i in range(rand_list.shape[0]):
+        count = 0
+        for j in range(rand_list.shape[1]):
+            if j in fake_position[i]:
+                rand_list[i, j] = data[i, fake_position[i, count]]
+                count += 1
+    fake_data = data * mask + rand_list * (1 - mask)
+    real_fake_labels = np.zeros(shape=[sample_nums * 2, 2])
+    for i in range(sample_nums * 2):
+        if i < sample_nums:
+            real_fake_labels[i, 0] = 1
+        else:
+            real_fake_labels[i, 1] = 1
+    return fake_data, real_fake_labels
 
 class PipItem(object):
 
@@ -367,3 +494,102 @@ def f_ratio_euclidean(X, lb):
     f_ratio = k * SSW / SSB
 
     return f_ratio
+
+# mask
+def create_subsequence_mask(o, r=.15, lm=3, stateful=True, sync=False):
+    device = o.device
+    if o.ndim == 2:
+        o = o[None]
+    n_masks, mask_dims, mask_len = o.shape
+    if sync == 'random':
+        sync = random.random() > .5
+    dims = 1 if sync else mask_dims
+    if stateful:
+        numels = n_masks * dims * mask_len
+        pm = torch.tensor([1 / lm], device=device)
+        pu = torch.clip(pm * (r / max(1e-6, 1 - r)), 1e-3, 1)
+        zot, proba_a, proba_b = (torch.as_tensor([False, True], device=device), pu, pm) if random.random() > pm else \
+            (torch.as_tensor([True, False], device=device), pm, pu)
+        max_len = max(1, 2 * math.ceil(numels // (1/pm + 1/pu)))
+        for i in range(10):
+            _dist_a = (Geometric(probs=proba_a).sample([max_len])+1).long()
+            _dist_b = (Geometric(probs=proba_b).sample([max_len])+1).long()
+            dist_a = _dist_a if i == 0 else torch.cat((dist_a, _dist_a), dim=0)
+            dist_b = _dist_b if i == 0 else torch.cat((dist_b, _dist_b), dim=0)
+            add = torch.add(dist_a, dist_b)
+            if torch.gt(torch.sum(add), numels):
+                break
+        dist_len = torch.argmax((torch.cumsum(add, 0) >= numels).float()) + 1
+        if dist_len % 2:
+            dist_len += 1
+        repeats = torch.cat(
+            (dist_a[:dist_len], dist_b[:dist_len]), -1).flatten()
+        zot = zot.repeat(dist_len)
+        mask = torch.repeat_interleave(zot, repeats)[
+            :numels].reshape(n_masks, dims, mask_len)
+    else:
+        probs = torch.tensor(r, device=device)
+        mask = Binomial(1, probs).sample((n_masks, dims, mask_len)).bool()
+    if sync:
+        mask = mask.repeat(1, mask_dims, 1)
+    return mask
+
+
+def create_variable_mask(o, r=.15):
+    device = o.device
+    n_masks, mask_dims, mask_len = o.shape
+    _mask = torch.zeros((n_masks * mask_dims, mask_len), device=device)
+    if int(mask_dims * r) > 0:
+        n_masked_vars = int(n_masks * mask_dims * r)
+        p = torch.tensor([1./(n_masks * mask_dims)],
+                         device=device).repeat([n_masks * mask_dims])
+        sel_dims = p.multinomial(num_samples=n_masked_vars, replacement=False)
+        _mask[sel_dims] = 1
+    mask = _mask.reshape(*o.shape).bool()
+    return mask
+
+
+def create_future_mask(o, r=.15, sync=False):
+    if o.ndim == 2:
+        o = o[None]
+    n_masks, mask_dims, mask_len = o.shape
+    if sync == 'random':
+        sync = random.random() > .5
+    dims = 1 if sync else mask_dims
+    probs = torch.tensor(r, device=o.device)
+    mask = Binomial(1, probs).sample((n_masks, dims, mask_len))
+    if sync:
+        mask = mask.repeat(1, mask_dims, 1)
+    mask = torch.sort(mask, dim=-1, descending=True)[0].bool()
+    return mask
+
+
+def natural_mask(o):
+    """Applies natural missingness in a batch to non-nan values in the next sample"""
+    mask1 = torch.isnan(o)
+    mask2 = rotate_axis0(mask1)
+    return torch.logical_and(mask2, ~mask1)
+
+# Cell
+
+
+def create_mask(o,  r=.15, lm=3, stateful=True, sync=False, subsequence_mask=True, variable_mask=False, future_mask=False):
+    if r <= 0 or r >= 1:
+        return torch.ones_like(o)
+    if int(r * o.shape[1]) == 0:
+        variable_mask = False
+    if subsequence_mask and variable_mask:
+        random_thr = 1/3 if sync == 'random' else 1/2
+        if random.random() > random_thr:
+            variable_mask = False
+        else:
+            subsequence_mask = False
+    elif future_mask:
+        return create_future_mask(o, r=r)
+    elif subsequence_mask:
+        return create_subsequence_mask(o, r=r, lm=lm, stateful=stateful, sync=sync)
+    elif variable_mask:
+        return create_variable_mask(o, r=r)
+    else:
+        raise ValueError(
+            'You need to set subsequence_mask, variable_mask or future_mask to True or pass a custom mask.')

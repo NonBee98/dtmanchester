@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{alexander2001market}
+{\sc Alexander, C.}
+\newblock Market models.
+\newblock {\em A Guide to Financial Data Analysis 1\/} (2001).
+
 \bibitem{altunkaynak2016comparison}
 {\sc Altunkaynak, A., and Ozger, M.}
 \newblock Comparison of discrete and continuous wavelet--multilayer perceptron
@@ -215,11 +220,28 @@
 \newblock In {\em Proceedings of the fifth Berkeley symposium on mathematical
   statistics and probability\/} (1967), vol.~1, Oakland, CA, USA, pp.~281--297.
 
+\bibitem{mahesh2020machine}
+{\sc Mahesh, B.}
+\newblock Machine learning algorithms-a review.
+\newblock {\em International Journal of Science and Research (IJSR).[Internet]
+  9\/} (2020), 381--386.
+
 \bibitem{malhotra2017timenet}
 {\sc Malhotra, P., TV, V., Vig, L., Agarwal, P., and Shroff, G.}
 \newblock Timenet: Pre-trained deep recurrent neural network for time series
   classification.
 \newblock {\em arXiv preprint arXiv:1706.08838\/} (2017).
+
+\bibitem{mohri2018foundations}
+{\sc Mohri, M., Rostamizadeh, A., and Talwalkar, A.}
+\newblock {\em Foundations of machine learning}.
+\newblock MIT press, 2018.
+
+\bibitem{nair2017clustering}
+{\sc Nair, B.~B., Kumar, P.~S., Sakthivel, N., and Vipin, U.}
+\newblock Clustering stock price time series data to generate stock trading
+  recommendations: An empirical study.
+\newblock {\em Expert Systems with Applications 70\/} (2017), 20--36.
 
 \bibitem{nakano2019effect}
 {\sc Nakano, K., and Chakraborty, B.}
@@ -261,6 +283,11 @@
 \newblock The infinite gaussian mixture model.
 \newblock In {\em NIPS\/} (1999), vol.~12, pp.~554--560.
 
+\bibitem{rojas2013neural}
+{\sc Rojas, R.}
+\newblock {\em Neural networks: a systematic introduction}.
+\newblock Springer Science \& Business Media, 2013.
+
 \bibitem{rousseeuw1987silhouettes}
 {\sc Rousseeuw, P.~J.}
 \newblock Silhouettes: a graphical aid to the interpretation and validation of
@@ -292,10 +319,28 @@
 \newblock {\em IEEE Transactions on signal processing 40}, 10 (1992),
   2464--2482.
 
+\bibitem{singh2016review}
+{\sc Singh, A., Thakur, N., and Sharma, A.}
+\newblock A review of supervised machine learning algorithms.
+\newblock In {\em 2016 3rd International Conference on Computing for
+  Sustainable Global Development (INDIACom)\/} (2016), Ieee, pp.~1310--1315.
+
+\bibitem{sutton2018reinforcement}
+{\sc Sutton, R.~S., and Barto, A.~G.}
+\newblock {\em Reinforcement learning: An introduction}.
+\newblock MIT press, 2018.
+
 \bibitem{tsay2005analysis}
 {\sc Tsay, R.~S.}
 \newblock {\em Analysis of financial time series}, vol.~543.
 \newblock John wiley \& sons, 2005.
+
+\bibitem{vaswani2017attention}
+{\sc Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez,
+  A.~N., Kaiser, {\L}., and Polosukhin, I.}
+\newblock Attention is all you need.
+\newblock In {\em Advances in neural information processing systems\/} (2017),
+  pp.~5998--6008.
 
 \bibitem{wang1997sting}
 {\sc Wang, W., Yang, J., Muntz, R., et~al.}
@@ -343,6 +388,12 @@
   representation learning.
 \newblock {\em arXiv preprint arXiv:2010.02803\/} (2020).
 
+\bibitem{zha2001spectral}
+{\sc Zha, H., He, X., Ding, C., Gu, M., and Simon, H.~D.}
+\newblock Spectral relaxation for k-means clustering.
+\newblock In {\em Advances in neural information processing systems\/} (2001),
+  pp.~1057--1064.
+
 \bibitem{zhang2017stock}
 {\sc Zhang, L., Aggarwal, C., and Qi, G.-J.}
 \newblock Stock price prediction via discovering multi-frequency trading
@@ -359,5 +410,11 @@
 {\sc Zhang, X., Liu, J., Du, Y., and Lv, T.}
 \newblock A novel clustering method on time series data.
 \newblock {\em Expert Systems with Applications 38}, 9 (2011), 11891--11900.
+
+\bibitem{zhu2009introduction}
+{\sc Zhu, X., and Goldberg, A.~B.}
+\newblock Introduction to semi-supervised learning.
+\newblock {\em Synthesis lectures on artificial intelligence and machine
+  learning 3}, 1 (2009), 1--130.
 
 \end{thebibliography}

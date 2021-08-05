@@ -1,5 +1,5 @@
-\contentsline {chapter}{Abstract}{iii}{chapter*.2}% 
-\contentsline {chapter}{Declaration}{iv}{chapter*.2}% 
+\contentsline {chapter}{Abstract}{iv}{chapter*.2}% 
+\contentsline {chapter}{Declaration}{v}{chapter*.2}% 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Motivation}{2}{section.1.2}% 
@@ -11,37 +11,50 @@
 \contentsline {section}{\numberline {2.2}Time-Series Analysis for Stock Market Data}{6}{section.2.2}% 
 \contentsline {subsection}{\numberline {2.2.1}Time-series data}{6}{subsection.2.2.1}% 
 \contentsline {subsection}{\numberline {2.2.2}Stock data analysis}{7}{subsection.2.2.2}% 
-\contentsline {section}{\numberline {2.3}Literature Review}{8}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Related Works}{10}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Time-series data transformation}{11}{subsection.2.4.1}% 
-\contentsline {subsection}{\numberline {2.4.2}Clustering algorithms}{12}{subsection.2.4.2}% 
-\contentsline {chapter}{\numberline {3}Research Methodology}{15}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Preliminary}{15}{section.3.1}% 
-\contentsline {subsection}{\numberline {3.1.1}Problem Definition}{15}{subsection.3.1.1}% 
-\contentsline {subsection}{\numberline {3.1.2}Guideline for this project}{15}{subsection.3.1.2}% 
-\contentsline {section}{\numberline {3.2}Stock Data Preprocessing}{17}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Stock Data Representation}{17}{section.3.3}% 
-\contentsline {section}{\numberline {3.4}Stock Data Clustering}{18}{section.3.4}% 
-\contentsline {section}{\numberline {3.5}Evaluation}{18}{section.3.5}% 
-\contentsline {chapter}{\numberline {4}Data Description and Preprocessing}{19}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Data description}{19}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Time-series preprocessing}{20}{section.4.2}% 
-\contentsline {subsection}{\numberline {4.2.1}Time-series denoising}{20}{subsection.4.2.1}% 
-\contentsline {subsection}{\numberline {4.2.2}Time-serie normalization}{23}{subsection.4.2.2}% 
-\contentsline {chapter}{\numberline {5}Time-Series Representations}{26}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Static Feature Representation}{27}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}Statistical features representations}{27}{subsection.5.1.1}% 
-\contentsline {subsection}{\numberline {5.1.2}Bag-of-patterns representation}{28}{subsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.1.3}Path signature representation}{31}{subsection.5.1.3}% 
-\contentsline {section}{\numberline {5.2}Dynamic Feature Representations}{33}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Random convolutional kernels based sequence representation}{34}{subsection.5.2.1}% 
-\contentsline {subsection}{\numberline {5.2.2}Self-supervised time-series representation learning}{36}{subsection.5.2.2}% 
-\contentsline {section}{\numberline {5.3}Shape-preserved representations}{38}{section.5.3}% 
-\contentsline {chapter}{\numberline {6}Semi-Shape-Preserved Clustering Representation}{43}{chapter.6}% 
-\contentsline {chapter}{\numberline {7}Experiment and Evaluation}{44}{chapter.7}% 
-\contentsline {section}{\numberline {7.1}Experimental Settings}{44}{section.7.1}% 
-\contentsline {subsection}{\numberline {7.1.1}Numerical Metrics}{44}{subsection.7.1.1}% 
-\contentsline {subsection}{\numberline {7.1.2}Measures to counteract the effect of randomness}{46}{subsection.7.1.2}% 
-\contentsline {subsection}{\numberline {7.1.3}The choice of group centers}{46}{subsection.7.1.3}% 
-\contentsline {section}{\numberline {7.2}Comparison of PIP, PAA and Down Sampling}{47}{section.7.2}% 
-\contentsline {chapter}{Bibliography}{48}{figure.7.3}% 
+\contentsline {subsection}{\numberline {2.2.3}Practical methods for stock data analysis}{9}{subsection.2.2.3}% 
+\contentsline {section}{\numberline {2.3}Related Researches}{11}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Related Techniques}{13}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Time-series data transformation}{13}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Clustering algorithms}{15}{subsection.2.4.2}% 
+\contentsline {section}{\numberline {2.5}Other Related Concepts}{16}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Machine learning}{16}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Neural Networks}{18}{subsection.2.5.2}% 
+\contentsline {section}{\numberline {2.6}Chapter Summary}{20}{section.2.6}% 
+\contentsline {chapter}{\numberline {3}Research Methodology}{21}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Problem Definition}{21}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Guideline for this project}{21}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Stock Data Preprocessing}{24}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Stock Data Representation}{24}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Stock Data Clustering}{25}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Evaluation}{25}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Tools for Implementation}{25}{section.3.7}% 
+\contentsline {section}{\numberline {3.8}Chapter Summary}{26}{section.3.8}% 
+\contentsline {chapter}{\numberline {4}Data Description and Preprocessing}{27}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Data description}{27}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Time-series preprocessing}{28}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Time-series denoising}{28}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Time-serie normalization}{31}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Chapter Summary}{33}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Time-Series Representations}{34}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Static Feature Representations}{35}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Statistical features representation}{35}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1.2}Bag-of-patterns representation}{36}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.1.3}Path signature representation}{39}{subsection.5.1.3}% 
+\contentsline {section}{\numberline {5.2}Dynamic Feature Representations}{41}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Random convolutional kernels based sequence representation}{42}{subsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2.2}Self-supervised time-series representation learning}{44}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {5.3}Shape-Preserved Representations}{46}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Chapter Summary}{50}{section.5.4}% 
+\contentsline {chapter}{\numberline {6}Semi-Shape-Preserved Clustering Representation}{52}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Preliminaries}{52}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Reformulation of within-cluster-scatter}{52}{subsection.6.1.1}% 
+\contentsline {subsection}{\numberline {6.1.2}Autoencoders}{53}{subsection.6.1.2}% 
+\contentsline {section}{\numberline {6.2}Algorithm Description}{54}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Chapter Summary}{61}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Experiment and Evaluation}{62}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Experimental Settings}{62}{section.7.1}% 
+\contentsline {subsection}{\numberline {7.1.1}Numerical Metrics}{62}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Measures to counteract the effect of randomness}{64}{subsection.7.1.2}% 
+\contentsline {subsection}{\numberline {7.1.3}The choice of group centers}{64}{subsection.7.1.3}% 
+\contentsline {section}{\numberline {7.2}Comparison of PIP, PAA and Down Sampling}{65}{section.7.2}% 
+\contentsline {chapter}{Bibliography}{66}{figure.7.3}% 

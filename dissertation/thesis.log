@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.16)  18 JUL 2021 18:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.16)  5 AUG 2021 14:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -800,7 +800,7 @@ LaTeX Info: Redefining \nameref on input line 48.
 \@outlinefile=\write7
 \openout7 = `thesis.out'.
 
-<images/manchester.jpeg, id=194, 409.53pt x 173.14688pt>
+<images/manchester.jpeg, id=247, 409.53pt x 173.14688pt>
 File: images/manchester.jpeg Graphic file (type jpg)
 <use images/manchester.jpeg>
 Package pdftex.def Info: images/manchester.jpeg  used on input line 60.
@@ -834,38 +834,38 @@ Underfull \vbox (badness 10000) detected at line 60
 
 
 
-] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.lof)
-\tf@lof=\write9
-\openout9 = `thesis.lof'.
-
- [2
-
-
-] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/abstract/abstract.tex) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/acknowledgements/acknowledgements.tex [3]
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
-
- []
-
-) [4
-
-] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.toc [5
+] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.lof [2
 
 
 ])
+\tf@lof=\write9
+\openout9 = `thesis.lof'.
+
+ [3] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/abstract/abstract.tex) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/acknowledgements/acknowledgements.tex [4]
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
+
+ []
+
+) [5
+
+] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.toc [6
+
+
+] [7])
 \tf@toc=\write10
 \openout10 = `thesis.toc'.
 
- [6] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/introduction/introduction.tex
+ [8] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/introduction/introduction.tex
 Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
@@ -883,7 +883,7 @@ LaTeX Warning: Reference `ch:plan' on page 4 undefined on input line 43.
 
 ) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/background/background.tex [4]
 Chapter 2.
-<images/yahoo.png, id=375, 888.31876pt x 466.74374pt>
+<images/yahoo.png, id=477, 888.31876pt x 466.74374pt>
 File: images/yahoo.png Graphic file (type png)
 <use images/yahoo.png>
 Package pdftex.def Info: images/yahoo.png  used on input line 11.
@@ -901,60 +901,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--16
 [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-
- []
-
-[6 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/yahoo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+<images/Electrocardiogram.jpeg, id=486, 161.403pt x 90.3375pt>
+File: images/Electrocardiogram.jpeg Graphic file (type jpg)
+<use images/Electrocardiogram.jpeg>
+Package pdftex.def Info: images/Electrocardiogram.jpeg  used on input line 22.
+(pdftex.def)             Requested size: 236.01561pt x 132.10805pt.
+ [6 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/yahoo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
+
+ []
+
+[7 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/Electrocardiogram.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--36
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
-[8] [9] [10] [11] [12]) [13] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/body.tex (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/design.tex [14]
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
+
+ []
+
+[8] [9] [10] [11] [12] [13] [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
+
+ []
+
+
+Overfull \hbox (1.29301pt too wide) in paragraph at lines 85--88
+\OT1/cmr/m/n/12 Com-mon branches in-clude: su-per-vised learn-ing, un-su-per-vised learn-ing, semi-supervised learn-
+ []
+
+[16]
+<images/perceptron.png, id=643, 338.2236pt x 125.38844pt>
+File: images/perceptron.png Graphic file (type png)
+<use images/perceptron.png>
+Package pdftex.def Info: images/perceptron.png  used on input line 93.
+(pdftex.def)             Requested size: 188.8096pt x 69.99701pt.
+ [17]
+<images/feedforward.png, id=654, 870.25125pt x 327.2225pt>
+File: images/feedforward.png Graphic file (type png)
+<use images/feedforward.png>
+Package pdftex.def Info: images/feedforward.png  used on input line 108.
+(pdftex.def)             Requested size: 283.22162pt x 106.49583pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--114
+
+ []
+
+[18 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/perceptron.png>]) [19 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/feedforward.png>] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/body.tex (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/design.tex [20]
 Chapter 3.
-[15
+<images/scaleinv1.png, id=675, 519.9425pt x 201.75375pt>
+File: images/scaleinv1.png Graphic file (type png)
+<use images/scaleinv1.png>
+Package pdftex.def Info: images/scaleinv1.png  used on input line 17.
+(pdftex.def)             Requested size: 188.8096pt x 73.26237pt.
+<images/scaleinv2.png, id=676, 273.02pt x 174.6525pt>
+File: images/scaleinv2.png Graphic file (type png)
+<use images/scaleinv2.png>
+Package pdftex.def Info: images/scaleinv2.png  used on input line 21.
+(pdftex.def)             Requested size: 188.8096pt x 120.78218pt.
+[21
 
-] [16] [17]) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/data.tex [18]
+]
+<images/localinv.png, id=688, 521.95pt x 237.88875pt>
+File: images/localinv.png Graphic file (type png)
+<use images/localinv.png>
+Package pdftex.def Info: images/localinv.png  used on input line 28.
+(pdftex.def)             Requested size: 236.01561pt x 107.56801pt.
+ [22 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/scaleinv1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/scaleinv2.png>]
+<images/globalinv.png, id=702, 523.9575pt x 313.17pt>
+File: images/globalinv.png Graphic file (type png)
+<use images/globalinv.png>
+Package pdftex.def Info: images/globalinv.png  used on input line 35.
+(pdftex.def)             Requested size: 236.01561pt x 141.06377pt.
+ [23 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/localinv.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/globalinv.png>] [24] [25]) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/data.tex [26]
 Chapter 4.
-<images/sample1.png, id=549, 433.62pt x 289.08pt>
+<images/sample1.png, id=733, 433.62pt x 289.08pt>
 File: images/sample1.png Graphic file (type png)
 <use images/sample1.png>
 Package pdftex.def Info: images/sample1.png  used on input line 10.
 (pdftex.def)             Requested size: 188.8096pt x 125.87228pt.
-<images/kline1.png, id=550, 433.62pt x 289.08pt>
+<images/kline1.png, id=734, 433.62pt x 289.08pt>
 File: images/kline1.png Graphic file (type png)
 <use images/kline1.png>
 Package pdftex.def Info: images/kline1.png  used on input line 13.
 (pdftex.def)             Requested size: 188.8096pt x 125.87228pt.
-[19
+[27
 
 ]
-<images/DWT.png, id=573, 852.0633pt x 80.2197pt>
+<images/DWT.png, id=757, 852.0633pt x 80.2197pt>
 File: images/DWT.png Graphic file (type png)
 <use images/DWT.png>
 Package pdftex.def Info: images/DWT.png  used on input line 28.
@@ -969,23 +1024,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--32
 
  []
 
-[20 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/sample1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/kline1.png>] [21]
-<images/undenoised.png, id=590, 867.24pt x 361.35pt>
+[28 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/sample1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/kline1.png>] [29]
+<images/undenoised.png, id=777, 867.24pt x 361.35pt>
 File: images/undenoised.png Graphic file (type png)
 <use images/undenoised.png>
 Package pdftex.def Info: images/undenoised.png  used on input line 36.
 (pdftex.def)             Requested size: 212.41261pt x 88.50119pt.
-<images/denoised.png, id=591, 867.24pt x 361.35pt>
+<images/denoised.png, id=778, 867.24pt x 361.35pt>
 File: images/denoised.png Graphic file (type png)
 <use images/denoised.png>
 Package pdftex.def Info: images/denoised.png  used on input line 40.
 (pdftex.def)             Requested size: 212.41261pt x 88.50119pt.
-<images/undenoised_dtw.png, id=592, 867.24pt x 361.35pt>
+<images/undenoised_dtw.png, id=779, 867.24pt x 361.35pt>
 File: images/undenoised_dtw.png Graphic file (type png)
 <use images/undenoised_dtw.png>
 Package pdftex.def Info: images/undenoised_dtw.png  used on input line 43.
 (pdftex.def)             Requested size: 212.41261pt x 88.50119pt.
-<images/denoised_dtw.png, id=593, 867.24pt x 361.35pt>
+<images/denoised_dtw.png, id=780, 867.24pt x 361.35pt>
 File: images/denoised_dtw.png Graphic file (type png)
 <use images/denoised_dtw.png>
 Package pdftex.def Info: images/denoised_dtw.png  used on input line 46.
@@ -995,50 +1050,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
-[22 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/DWT.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/undenoised.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/denoised.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/undenoised_dtw.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/denoised_dtw.png>] [23]
-<images/minmax.png, id=618, 433.62pt x 289.08pt>
+[30 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/DWT.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/undenoised.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/denoised.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/undenoised_dtw.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/denoised_dtw.png>] [31]
+<images/minmax.png, id=803, 433.62pt x 289.08pt>
 File: images/minmax.png Graphic file (type png)
 <use images/minmax.png>
 Package pdftex.def Info: images/minmax.png  used on input line 85.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/zmeans.png, id=619, 433.62pt x 289.08pt>
+<images/zmeans.png, id=804, 433.62pt x 289.08pt>
 File: images/zmeans.png Graphic file (type png)
 <use images/zmeans.png>
 Package pdftex.def Info: images/zmeans.png  used on input line 88.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/minzero.png, id=620, 433.62pt x 289.08pt>
+<images/minzero.png, id=805, 433.62pt x 289.08pt>
 File: images/minzero.png Graphic file (type png)
 <use images/minzero.png>
 Package pdftex.def Info: images/minzero.png  used on input line 91.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/scaling1.png, id=621, 433.62pt x 289.08pt>
+<images/scaling1.png, id=806, 433.62pt x 289.08pt>
 File: images/scaling1.png Graphic file (type png)
 <use images/scaling1.png>
 Package pdftex.def Info: images/scaling1.png  used on input line 99.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/scaling2.png, id=622, 433.62pt x 289.08pt>
+<images/scaling2.png, id=807, 433.62pt x 289.08pt>
 File: images/scaling2.png Graphic file (type png)
 <use images/scaling2.png>
 Package pdftex.def Info: images/scaling2.png  used on input line 102.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/scaling3.png, id=623, 433.62pt x 289.08pt>
+<images/scaling3.png, id=808, 433.62pt x 289.08pt>
 File: images/scaling3.png Graphic file (type png)
 <use images/scaling3.png>
 Package pdftex.def Info: images/scaling3.png  used on input line 105.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/minmax2.png, id=624, 433.62pt x 289.08pt>
+<images/minmax2.png, id=809, 433.62pt x 289.08pt>
 File: images/minmax2.png Graphic file (type png)
 <use images/minmax2.png>
 Package pdftex.def Info: images/minmax2.png  used on input line 108.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/zeor2.png, id=625, 433.62pt x 289.08pt>
+<images/zeor2.png, id=810, 433.62pt x 289.08pt>
 File: images/zeor2.png Graphic file (type png)
 <use images/zeor2.png>
 Package pdftex.def Info: images/zeor2.png  used on input line 111.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/representation.tex [24 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/minmax.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/zmeans.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/minzero.png>] [25 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/scaling1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/scaling2.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/scaling3.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/minmax2.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/zeor2.png>]
+) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/representation.tex [32 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/minmax.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/zmeans.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/minzero.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/scaling1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/scaling2.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/scaling3.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/minmax2.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/zeor2.png>] [33]
 Chapter 5.
-<images/representation1.png, id=653, 497.57895pt x 302.8113pt>
+<images/representation1.png, id=836, 497.57895pt x 302.8113pt>
 File: images/representation1.png Graphic file (type png)
 <use images/representation1.png>
 Package pdftex.def Info: images/representation1.png  used on input line 7.
@@ -1049,170 +1104,242 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-[26
+[34
 
-] [27 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/representation1.png>]
-<images/nycbelp1.png, id=665, 722.7pt x 361.35pt>
+] [35 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/representation1.png>]
+<images/nycbelp1.png, id=849, 722.7pt x 361.35pt>
 File: images/nycbelp1.png Graphic file (type png)
 <use images/nycbelp1.png>
-Package pdftex.def Info: images/nycbelp1.png  used on input line 34.
+Package pdftex.def Info: images/nycbelp1.png  used on input line 35.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
-<images/nycbelp2.png, id=666, 722.7pt x 361.35pt>
+<images/nycbelp2.png, id=850, 722.7pt x 361.35pt>
 File: images/nycbelp2.png Graphic file (type png)
 <use images/nycbelp2.png>
-Package pdftex.def Info: images/nycbelp2.png  used on input line 37.
+Package pdftex.def Info: images/nycbelp2.png  used on input line 38.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
-<images/sax1.png, id=672, 722.7pt x 361.35pt>
+<images/sax1.png, id=856, 722.7pt x 361.35pt>
 File: images/sax1.png Graphic file (type png)
 <use images/sax1.png>
-Package pdftex.def Info: images/sax1.png  used on input line 47.
+Package pdftex.def Info: images/sax1.png  used on input line 48.
 (pdftex.def)             Requested size: 283.22162pt x 141.60963pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--52
+Underfull \hbox (badness 10000) in paragraph at lines 44--53
 
  []
 
-[28 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/nycbelp1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/nycbelp2.png>] [29 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/sax1.png>]
-<images/ibawpz.png, id=695, 722.7pt x 361.35pt>
+[36 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/nycbelp1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/nycbelp2.png>] [37 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/sax1.png>]
+<images/ibawpz.png, id=878, 722.7pt x 361.35pt>
 File: images/ibawpz.png Graphic file (type png)
 <use images/ibawpz.png>
-Package pdftex.def Info: images/ibawpz.png  used on input line 64.
+Package pdftex.def Info: images/ibawpz.png  used on input line 65.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
-<images/bop1.png, id=696, 722.7pt x 361.35pt>
+<images/bop1.png, id=879, 722.7pt x 361.35pt>
 File: images/bop1.png Graphic file (type png)
 <use images/bop1.png>
-Package pdftex.def Info: images/bop1.png  used on input line 67.
+Package pdftex.def Info: images/bop1.png  used on input line 68.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{equation.5.1.5}) has been already used, duplicate ignored
+ [38pdfTeX warning (ext4): destination with the same identifier (name{equation.5.1.5}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.74 \begin{equation}
+l.75 \begin{equation}
                       </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/ibawpz.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/bop1.png>]pdfTeX warning (ext4): destination with the same identifier (name{equation.5.1.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \begin{equation}
+l.75 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifier (name{equation.5.1.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \begin{equation}
+l.75 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifier (name{equation.5.1.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \begin{equation}
+l.75 \begin{equation}
                      pdfTeX warning (ext4): destination with the same identifier (name{equation.5.1.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \begin{equation}
-                      [31]
-Underfull \hbox (badness 10000) in paragraph at lines 114--117
+l.75 \begin{equation}
+                      [39]
+Underfull \hbox (badness 10000) in paragraph at lines 115--118
 
  []
 
-[32]
-<images/wwwexr1.png, id=727, 722.7pt x 361.35pt>
+[40]
+<images/wwwexr1.png, id=911, 722.7pt x 361.35pt>
 File: images/wwwexr1.png Graphic file (type png)
 <use images/wwwexr1.png>
-Package pdftex.def Info: images/wwwexr1.png  used on input line 139.
+Package pdftex.def Info: images/wwwexr1.png  used on input line 140.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
-<images/wwwexr2.png, id=728, 722.7pt x 361.35pt>
+<images/wwwexr2.png, id=912, 722.7pt x 361.35pt>
 File: images/wwwexr2.png Graphic file (type png)
 <use images/wwwexr2.png>
-Package pdftex.def Info: images/wwwexr2.png  used on input line 142.
+Package pdftex.def Info: images/wwwexr2.png  used on input line 143.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
- [33 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/wwwexr1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/wwwexr2.png>]
-<images/kernels1.png, id=747, 722.7pt x 361.35pt>
+ [41 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/wwwexr1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/wwwexr2.png>]
+<images/kernels1.png, id=930, 722.7pt x 361.35pt>
 File: images/kernels1.png Graphic file (type png)
 <use images/kernels1.png>
-Package pdftex.def Info: images/kernels1.png  used on input line 156.
+Package pdftex.def Info: images/kernels1.png  used on input line 157.
 (pdftex.def)             Requested size: 283.22162pt x 141.60963pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--161
+Underfull \hbox (badness 10000) in paragraph at lines 152--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--161
+Underfull \hbox (badness 10000) in paragraph at lines 152--162
 
  []
 
-[34]
-<images/ncsgrvy1.png, id=756, 722.7pt x 361.35pt>
+[42]
+<images/ncsgrvy1.png, id=939, 722.7pt x 361.35pt>
 File: images/ncsgrvy1.png Graphic file (type png)
 <use images/ncsgrvy1.png>
-Package pdftex.def Info: images/ncsgrvy1.png  used on input line 169.
+Package pdftex.def Info: images/ncsgrvy1.png  used on input line 170.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
-<images/ncsgrvy2.png, id=757, 722.7pt x 361.35pt>
+<images/ncsgrvy2.png, id=940, 722.7pt x 361.35pt>
 File: images/ncsgrvy2.png Graphic file (type png)
 <use images/ncsgrvy2.png>
-Package pdftex.def Info: images/ncsgrvy2.png  used on input line 172.
+Package pdftex.def Info: images/ncsgrvy2.png  used on input line 173.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
- [35 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/kernels1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+ [43 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/kernels1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
-[36 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/ncsgrvy1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/ncsgrvy2.png>]
-<images/gpkwti1.png, id=782, 722.7pt x 361.35pt>
+[44 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/ncsgrvy1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/ncsgrvy2.png>]
+<images/gpkwti1.png, id=964, 722.7pt x 361.35pt>
 File: images/gpkwti1.png Graphic file (type png)
 <use images/gpkwti1.png>
-Package pdftex.def Info: images/gpkwti1.png  used on input line 191.
+Package pdftex.def Info: images/gpkwti1.png  used on input line 192.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
-<images/gpkwti2.png, id=783, 722.7pt x 361.35pt>
+<images/gpkwti2.png, id=965, 722.7pt x 361.35pt>
 File: images/gpkwti2.png Graphic file (type png)
 <use images/gpkwti2.png>
-Package pdftex.def Info: images/gpkwti2.png  used on input line 194.
+Package pdftex.def Info: images/gpkwti2.png  used on input line 195.
 (pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
-[37] [38 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/gpkwti1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/gpkwti2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 220--223
+[45] [46 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/gpkwti1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/gpkwti2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 221--224
 
  []
 
-[39]
-<images/iba2.png, id=819, 433.62pt x 289.08pt>
+[47]
+<images/iba2.png, id=1002, 433.62pt x 289.08pt>
 File: images/iba2.png Graphic file (type png)
 <use images/iba2.png>
-Package pdftex.def Info: images/iba2.png  used on input line 232.
+Package pdftex.def Info: images/iba2.png  used on input line 233.
 (pdftex.def)             Requested size: 212.41261pt x 141.61073pt.
-<images/pippaacompare1.png, id=820, 433.62pt x 289.08pt>
+<images/pippaacompare1.png, id=1003, 433.62pt x 289.08pt>
 File: images/pippaacompare1.png Graphic file (type png)
 <use images/pippaacompare1.png>
-Package pdftex.def Info: images/pippaacompare1.png  used on input line 235.
+Package pdftex.def Info: images/pippaacompare1.png  used on input line 236.
 (pdftex.def)             Requested size: 212.41261pt x 141.61073pt.
-<images/linear_sampling.png, id=821, 433.62pt x 289.08pt>
+<images/linear_sampling.png, id=1004, 433.62pt x 289.08pt>
 File: images/linear_sampling.png Graphic file (type png)
 <use images/linear_sampling.png>
-Package pdftex.def Info: images/linear_sampling.png  used on input line 238.
+Package pdftex.def Info: images/linear_sampling.png  used on input line 239.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/pip_iba_50.png, id=822, 433.62pt x 289.08pt>
+<images/pip_iba_50.png, id=1005, 433.62pt x 289.08pt>
 File: images/pip_iba_50.png Graphic file (type png)
 <use images/pip_iba_50.png>
-Package pdftex.def Info: images/pip_iba_50.png  used on input line 241.
+Package pdftex.def Info: images/pip_iba_50.png  used on input line 242.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-<images/ppa_50.png, id=823, 433.62pt x 289.08pt>
+<images/ppa_50.png, id=1006, 433.62pt x 289.08pt>
 File: images/ppa_50.png Graphic file (type png)
 <use images/ppa_50.png>
-Package pdftex.def Info: images/ppa_50.png  used on input line 244.
+Package pdftex.def Info: images/ppa_50.png  used on input line 245.
 (pdftex.def)             Requested size: 141.61081pt x 94.40862pt.
-) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/model.tex
-Underfull \hbox (badness 10000) in paragraph at lines 248--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--266
 
  []
 
-[40 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/iba2.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaacompare1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/linear_sampling.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pip_iba_50.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/ppa_50.png>] [41] [42]
-Chapter 6.
-) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/experiment.tex [43
+[48 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/iba2.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaacompare1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/linear_sampling.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pip_iba_50.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/ppa_50.png>]) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/model.tex
+Underfull \hbox (badness 10000) in paragraph at lines 269--1
 
-]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--1
+
+ []
+
+[49] [50] [51]
+Chapter 6.
+[52
+
+] [53]
+<images/autoencoder1.png, id=1061, 322.08519pt x 478.76505pt>
+File: images/autoencoder1.png Graphic file (type png)
+<use images/autoencoder1.png>
+Package pdftex.def Info: images/autoencoder1.png  used on input line 36.
+(pdftex.def)             Requested size: 141.61081pt x 210.49655pt.
+<images/sspcr1.png, id=1064, 608.13023pt x 618.18355pt>
+File: images/sspcr1.png Graphic file (type png)
+<use images/sspcr1.png>
+Package pdftex.def Info: images/sspcr1.png  used on input line 46.
+(pdftex.def)             Requested size: 283.22162pt x 287.90515pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--51
+
+ []
+
+[54 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/autoencoder1.png>] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
+
+ []
+
+[56 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/sspcr1.png>] [57]
+<images/transfomer.png, id=1097, 631.158pt x 659.1024pt>
+File: images/transfomer.png Graphic file (type png)
+<use images/transfomer.png>
+Package pdftex.def Info: images/transfomer.png  used on input line 111.
+(pdftex.def)             Requested size: 236.01561pt x 246.45879pt.
+<images/irixpay1.png, id=1099, 722.7pt x 361.35pt>
+File: images/irixpay1.png Graphic file (type png)
+<use images/irixpay1.png>
+Package pdftex.def Info: images/irixpay1.png  used on input line 120.
+(pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
+<images/irixpay2.png, id=1100, 722.7pt x 361.35pt>
+File: images/irixpay2.png Graphic file (type png)
+<use images/irixpay2.png>
+Package pdftex.def Info: images/irixpay2.png  used on input line 123.
+(pdftex.def)             Requested size: 188.8096pt x 94.40091pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--127
+
+ []
+
+[58] [59]) (/Users/NonBee/Desktop/CW/Post/DT/dissertation/body/experiment.tex [60 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/transfomer.png>] [61 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/irixpay1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/irixpay2.png>]
 Chapter 7.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
@@ -1220,56 +1347,56 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
- [44
+ [62
 
-] [45]
-<images/barycenter.png, id=885, 433.62pt x 289.08pt>
+] [63]
+<images/barycenter.png, id=1173, 433.62pt x 289.08pt>
 File: images/barycenter.png Graphic file (type png)
 <use images/barycenter.png>
 Package pdftex.def Info: images/barycenter.png  used on input line 51.
 (pdftex.def)             Requested size: 283.22162pt x 188.82166pt.
- [46]
-<images/pippaac.png, id=893, 578.16pt x 578.16pt>
+ [64]
+<images/pippaac.png, id=1182, 578.16pt x 578.16pt>
 File: images/pippaac.png Graphic file (type png)
 <use images/pippaac.png>
 Package pdftex.def Info: images/pippaac.png  used on input line 64.
 (pdftex.def)             Requested size: 141.61081pt x 141.61073pt.
-<images/pippaac2012.png, id=894, 578.16pt x 578.16pt>
+<images/pippaac2012.png, id=1183, 578.16pt x 578.16pt>
 File: images/pippaac2012.png Graphic file (type png)
 <use images/pippaac2012.png>
 Package pdftex.def Info: images/pippaac2012.png  used on input line 67.
 (pdftex.def)             Requested size: 141.61081pt x 141.61073pt.
-<images/pippaac2013.png, id=895, 578.16pt x 578.16pt>
+<images/pippaac2013.png, id=1184, 578.16pt x 578.16pt>
 File: images/pippaac2013.png Graphic file (type png)
 <use images/pippaac2013.png>
 Package pdftex.def Info: images/pippaac2013.png  used on input line 70.
 (pdftex.def)             Requested size: 141.61081pt x 141.61073pt.
-<images/pippaac2014.png, id=896, 578.16pt x 578.16pt>
+<images/pippaac2014.png, id=1185, 578.16pt x 578.16pt>
 File: images/pippaac2014.png Graphic file (type png)
 <use images/pippaac2014.png>
 Package pdftex.def Info: images/pippaac2014.png  used on input line 73.
 (pdftex.def)             Requested size: 141.61081pt x 141.61073pt.
-<images/pippaac2015.png, id=897, 578.16pt x 578.16pt>
+<images/pippaac2015.png, id=1186, 578.16pt x 578.16pt>
 File: images/pippaac2015.png Graphic file (type png)
 <use images/pippaac2015.png>
 Package pdftex.def Info: images/pippaac2015.png  used on input line 76.
 (pdftex.def)             Requested size: 141.61081pt x 141.61073pt.
-<images/KshapeRaw1.png, id=898, 216.81pt x 144.54pt>
+<images/KshapeRaw1.png, id=1187, 216.81pt x 144.54pt>
 File: images/KshapeRaw1.png Graphic file (type png)
 <use images/KshapeRaw1.png>
 Package pdftex.def Info: images/KshapeRaw1.png  used on input line 84.
 (pdftex.def)             Requested size: 188.8096pt x 125.87889pt.
-<images/KshapePIP1.png, id=899, 216.81pt x 144.54pt>
+<images/KshapePIP1.png, id=1188, 216.81pt x 144.54pt>
 File: images/KshapePIP1.png Graphic file (type png)
 <use images/KshapePIP1.png>
 Package pdftex.def Info: images/KshapePIP1.png  used on input line 87.
 (pdftex.def)             Requested size: 188.8096pt x 125.87889pt.
-<images/KshapePAA1.png, id=900, 216.81pt x 144.54pt>
+<images/KshapePAA1.png, id=1189, 216.81pt x 144.54pt>
 File: images/KshapePAA1.png Graphic file (type png)
 <use images/KshapePAA1.png>
 Package pdftex.def Info: images/KshapePAA1.png  used on input line 90.
 (pdftex.def)             Requested size: 188.8096pt x 125.87889pt.
-<images/KShapedown1.png, id=901, 216.81pt x 144.54pt>
+<images/KShapedown1.png, id=1190, 216.81pt x 144.54pt>
 File: images/KShapedown1.png Graphic file (type png)
 <use images/KShapedown1.png>
 Package pdftex.def Info: images/KShapedown1.png  used on input line 93.
@@ -1279,22 +1406,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--78
 
  []
 
-[47 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/barycenter.png>] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.bbl [48] [49 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac2012.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac2013.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac2014.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac2015.png>] [50 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/KshapeRaw1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/KshapePIP1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/KshapePAA1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/KShapedown1.png>] [51
+[65 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/barycenter.png>] (/Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.bbl [66] [67 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac2012.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac2013.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac2014.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/pippaac2015.png>] [68 </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/KshapeRaw1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/KshapePIP1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/KshapePAA1.png> </Users/NonBee/Desktop/CW/Post/DT/dissertation/images/KShapedown1.png>] [69
 
-] [52] [53] [54] [55] [56])
+] [70] [71] [72] [73] [74] [75])
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[57]
+[76]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 84.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 84.
  (/Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9ABEE494BE8AEB7D9EAAF34F71CDDF06;3365.
+(rerunfilecheck)             Checksum: 7E2E3A6AAFB5BDBF15811A80A9EBB097;4270.
 
 
 LaTeX Warning: There were undefined references.
@@ -1302,20 +1429,20 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 84.
  ) 
 Here is how much of TeX's memory you used:
- 24387 strings out of 492616
- 447874 string characters out of 6129480
- 579237 words of memory out of 5000000
- 27425 multiletter control sequences out of 15000+600000
- 12633 words of font info for 48 fonts, out of 8000000 for 9000
+ 24606 strings out of 492616
+ 451355 string characters out of 6129480
+ 582463 words of memory out of 5000000
+ 27533 multiletter control sequences out of 15000+600000
+ 14394 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,65p,2551b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,19n,65p,2463b,598s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs} has been referenced but does not exist, replaced by a fixed one
 
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.pdf (64 pages, 4303179 bytes).
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on /Users/NonBee/Desktop/CW/Post/DT/dissertation/thesis.pdf (85 pages, 5675574 bytes).
 PDF statistics:
- 1091 PDF objects out of 1200 (max. 8388607)
- 912 compressed objects within 10 object streams
- 297 named destinations out of 1000 (max. 500000)
- 614 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1404 PDF objects out of 1440 (max. 8388607)
+ 1181 compressed objects within 12 object streams
+ 390 named destinations out of 1000 (max. 500000)
+ 778 words of extra memory for PDF output out of 10000 (max. 10000000)
 
