@@ -53,8 +53,8 @@
 \contentsline {section}{\numberline {6.3}Chapter Summary}{61}{section.6.3}% 
 \contentsline {chapter}{\numberline {7}Experiment and Evaluation}{62}{chapter.7}% 
 \contentsline {section}{\numberline {7.1}Experimental Settings}{62}{section.7.1}% 
-\contentsline {subsection}{\numberline {7.1.1}Numerical Metrics}{62}{subsection.7.1.1}% 
-\contentsline {subsection}{\numberline {7.1.2}Measures to counteract the effect of randomness}{64}{subsection.7.1.2}% 
-\contentsline {subsection}{\numberline {7.1.3}The choice of group centers}{64}{subsection.7.1.3}% 
+\contentsline {subsection}{\numberline {7.1.1}The choice of group centers}{62}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {7.1.2}Numerical Metrics}{63}{subsection.7.1.2}% 
+\contentsline {subsection}{\numberline {7.1.3}Main clustering algorithm}{65}{subsection.7.1.3}% 
 \contentsline {section}{\numberline {7.2}Comparison of PIP, PAA and Down Sampling}{65}{section.7.2}% 
-\contentsline {chapter}{Bibliography}{66}{figure.7.3}% 
+\contentsline {chapter}{Bibliography}{68}{figure.7.4}% 

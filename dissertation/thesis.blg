@@ -7,45 +7,45 @@ Warning--empty journal in chung2001flexible
 Warning--can't use both volume and number fields in macqueen1967some
 Warning--can't use both volume and number fields in sharan2000click
 Warning--empty journal in yi2000fast
-You've used 72 entries,
+You've used 71 entries,
             2253 wiz_defined-function locations,
-            943 strings with 16684 characters,
-and the built_in function-call counts, 26037 in all, are:
-= -- 2551
-> -- 1189
+            937 strings with 16528 characters,
+and the built_in function-call counts, 25712 in all, are:
+= -- 2517
+> -- 1177
 < -- 0
-+ -- 507
-- -- 418
-* -- 2084
-:= -- 4106
-add.period$ -- 213
-call.type$ -- 72
-change.case$ -- 414
++ -- 501
+- -- 414
+* -- 2057
+:= -- 4054
+add.period$ -- 210
+call.type$ -- 71
+change.case$ -- 409
 chr.to.int$ -- 0
-cite$ -- 76
-duplicate$ -- 929
-empty$ -- 2096
-format.name$ -- 418
-if$ -- 5442
+cite$ -- 75
+duplicate$ -- 920
+empty$ -- 2069
+format.name$ -- 414
+if$ -- 5376
 int.to.chr$ -- 0
-int.to.str$ -- 72
-missing$ -- 76
-newline$ -- 360
-num.names$ -- 144
-pop$ -- 424
+int.to.str$ -- 71
+missing$ -- 75
+newline$ -- 355
+num.names$ -- 142
+pop$ -- 421
 preamble$ -- 1
-purify$ -- 347
+purify$ -- 343
 quote$ -- 0
-skip$ -- 627
+skip$ -- 621
 stack$ -- 0
-substring$ -- 1850
-swap$ -- 282
+substring$ -- 1819
+swap$ -- 280
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 278
+type$ -- 274
 warning$ -- 4
-while$ -- 264
-width$ -- 74
-write$ -- 719
+while$ -- 260
+width$ -- 73
+write$ -- 709
 (There were 4 warnings)

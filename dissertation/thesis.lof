@@ -63,15 +63,16 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original sequences}}}{61}{figure.6.4}% 
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SSPCR transformation}}}{61}{figure.6.4}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Barycenter}}{65}{figure.7.1}% 
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Different sequence length}}{67}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011}}}{67}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2012}}}{67}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2013}}}{67}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2014}}}{67}{figure.7.2}% 
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {2015}}}{67}{figure.7.2}% 
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Visual comparison }}{68}{figure.7.3}% 
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Raw 2011 (c=50)}}}{68}{figure.7.3}% 
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PIP 2011 (c=50)}}}{68}{figure.7.3}% 
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PAA 2011 (c=50)}}}{68}{figure.7.3}% 
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Downsampling 2011 (c=50)}}}{68}{figure.7.3}% 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Barycenter}}{63}{figure.7.1}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Pseudocode of DTW}}{65}{figure.7.2}% 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Different sequence length}}{67}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {2011}}}{67}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {2012}}}{67}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {2013}}}{67}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {2014}}}{67}{figure.7.3}% 
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {2015}}}{67}{figure.7.3}% 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Visual comparison }}{68}{figure.7.4}% 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Raw 2011 (c=50)}}}{68}{figure.7.4}% 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {PIP 2011 (c=50)}}}{68}{figure.7.4}% 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {PAA 2011 (c=50)}}}{68}{figure.7.4}% 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Downsampling 2011 (c=50)}}}{68}{figure.7.4}% 

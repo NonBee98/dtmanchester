@@ -4,54 +4,47 @@
 This section describes the general experimental settings applied to all the following experiments, for different experiments, their additional settings will be described in corresponding sections. For the fairness, all the evaluation are eventually conducted on the pre-processed ``raw'' data without any futher transformation. This decision is made because of the facts: (1)
 different represent methods generate varying number of features, and the number of features will affect the computation of indexes listed in Section~\ref{sec:metrics}; (2) the separation quality could be good on the transformed data, but may not also acceptable on the original data, in term of the trend analysis, the latter one is more important. 
 
-\subsection{Numerical Metrics}
-\label{sec:metrics}
-Generally, there are two indexes to evaluate the quality of data groups. The first one is the external index, it requires additional ground truth information to compare the generated groups with a reference model. Our dataset dose not contain such information, and hence the metric used here is the \textbf{internal index}. Literally, internal index reveals the intrinsic attributes of the groups, and does not require reference model. The common internal indexes are:
-\begin{enumerate}
-    \item Silhouette Coefficient (SC) \cite{rousseeuw1987silhouettes}: for each data point, its silhouette coefficient is composed of two scores:
-    \begin{itemize}
-        \item \textbf{a:} the average distance between a data point and all other data points in the same cluster
-        \item \textbf{b:} the average distance between a data point and all other data points in the next nearest cluster
-    \end{itemize}
-    The Silhouette Coefficient s for a single data point is defined as follows, where s ranges from -1 to +1:
-    \begin{equation}
-        s = \frac{b-a}{\max(a,b)} 
-    \end{equation}
-    The final Silhouette Coefficient is defined as the mean of the Silhouette Coefficient of each data point. \textbf{Higher Silhouette Coefficient Index means better clustering results}.
-    \item Calinski-Harabasz (CH) Index \cite{calinski1974dendrite}: given a data set E of size $n_E$, and the number of grouped clusters k, the Calinski-Harabasz score s is defined as follows:
-    \begin{equation}
-        s = \frac{tr(B_k)}{tr_(W_k)} \times \frac{n_E - k}{k-1}
-    \end{equation}
-    \begin{equation}
-        W_k = \sum_{q=1}^k \sum_{x \in C_q}(x-c_q)(x-c_q)^T
-    \end{equation}
-    \begin{equation}
-        B_k = \sum_{q=1}^k n_q(c_q-c_E)c_q-c_E)^T
-    \end{equation}
-    Where $tr(B_k)$ and $tr(W_k)$ are trace of the between group dispersion matrix and within-cluster dispersion matrix respectively, $C_q$ represents the points in cluster $q$, $c_q$ represents the centre of $q$, $c_E$ represents the centre of E and $n_q$ represents the number of points in q. \textbf{Higher Calinski-Harabasz Index means better clustering results}.
-    \item Davies-Bouldin (DB) Index \cite{davies1979cluster}: given two cluster $C_i$ and $C_j$ generated from the same data set without overlapping, their similarity $R_{ij}$ is defined as follows:
-    \begin{equation}
-        R_{ij} = \frac{s_i + s_j}{d_{ij}}
-    \end{equation}
-    Where $s_i$ is the average distance between each point in cluster $i$ and the centroid of $i$, $d_{ij}$ is the distance between centroids of clusters $i$ and $j$. The Davies-Bouldin index is defined as:
-    \begin{equation}
-        DB = \frac{1}{k} \sum_{i=1}^k\max_{i\neq j}R_{ij}
-    \end{equation}
-    k is the number of clusters. \textbf{Lower Davies-Bouldin index means better clustering results}.
-\end{enumerate}
-In the context of stock grouping analysis, analysts usually expect compact groups, especially when there is no explicit class information (the labels), because compact groups can reveal more general trends. In this aspect, these three indexes is relatively informative. Note that since they focus on different aspects, their trends may not comply with each other, but in general, if a grouping result gets high mark on all the three indexes, it can be regarded as a good separation.
-
-\subsection{Measures to counteract the effect of randomness}
-One well-known fact about clustering algorithms is that their outputs.
-
 \subsection{The choice of group centers}
-The generated groups could be mess, and it is necessary to highlight their centers when analyse their trends. One simplest way to extract the representative in a group is computing the arithmetic mean of that group. This method is called Euclidean Barycenter, it minimize the summed euclidean distance of that group. However, this method may be inappropriate in this project, since this project will visualize the results with the original sequences, and the original data are not aligned. This is illustrated in Figure~\ref{fig:barycenter1}, where the red lines represent the computed centers and black lines represent the data points in the group. To better reveal the general trend of a group, the Dynamic Time Warping (DTW) based methods are used to compute the barycenter. As mentioned before, DTW is a distance measure that can be used to compare two un-aligned sequences. Since it uses the dynamic programming, its time complexity is $O(mn)$, where $m$ and $n$ are the length of that two sequences respectively. To reduce the time complexity, its variation ``Soft-DTW'' are used to compute the center. The computation details of Soft-DTW can be found in \cite{schultz2018nonsmooth}. The second row of the figure shows the center computed by Soft-DTW with $\gamma$ set to 1, compared with the Euclidean barycenter, this center is visually more representative. 
+The generated groups could be mess, and it is necessary to highlight their centers when analyse their trends. In addition, some indexes requires knowing the cluster centers. One simplest way to extract the representative in a group is computing the arithmetic mean of that group. This method is called Euclidean Barycenter, it minimize the summed euclidean distance of that group. However, this method could be inappropriate when the original data are not aligned well. This is illustrated in Figure~\ref{fig:barycenter1}, where the red lines represent the computed centers and black lines represent the data points in the group. To better reveal the general trend of a group, the Dynamic Time Warping (DTW) based methods are used to compute the barycenter. As mentioned before, DTW is a distance measure that can be used to compare two un-aligned sequences. Since it uses the dynamic programming, its time complexity is $O(mn)$, where $m$ and $n$ are the length of that two sequences respectively. To reduce the time complexity, one of its variation ``Soft-DTW'' is used to compute the center. The computation details of Soft-DTW can be found in \cite{schultz2018nonsmooth}. The second row of the figure shows the center computed by Soft-DTW with $\gamma$ set to 1, compared with the Euclidean barycenter, this center is visually more representative. 
 \begin{figure}[!htbp]
     \centering
     \includegraphics[width=0.6\columnwidth]{barycenter.png}
     \caption{Barycenter}
     \label{fig:barycenter1}
 \end{figure} 
+
+\subsection{Numerical Metrics}
+\label{sec:metrics}
+Generally, there are two indexes to evaluate the quality of data groups. The first one is the external index, it requires additional ground truth information to compare the generated groups with a reference model. The stock market dataset dose not contain such information, and hence the metric used here is the \textbf{internal index}. Literally, internal indexes reveal the intrinsic attributes of the groups, and does not require reference model. Within-cluster-scatter (WCS) and Between-cluster-scatter (BCS) are two basic internal indexes. The former one is introduced in Section~\ref{sec:reformulation}, it is the objective function of K-means algorithm, and it measures the compactness of clusters. Again, given a partition of $k (k>1)$ clusters $\Pi$, its equation is defined as:
+\begin{equation}
+    WCS(\Pi) = \sum_{i=1}^k \sum_{s=1}^{s_i} d^2(x_s^{(i)},m_i)
+\end{equation}
+Where $m_i$ denotes the center of cluster $i$, and $d(.,.)$ is distance measure.
+\\\\To the contrary, BCS measures whether the clusters are well-separated, its equation is defined as:
+\begin{equation}
+    BCS(\Pi) = \sum_{i=1}^k s_i d^2(m,m_i)
+    \label{eq:bcs}
+\end{equation}
+Where $s_i$ denotes the number of data points of cluster $i$ and $m$ denotes the center of all data points.
+\\\\Intuitively, a good partition should get less WCS and higher BCS scores such that the clusters are more discriminative. This standard is used in this project since it is appropriate for stock market data analysis -- investors expect the trends being universal and distinguishable without any other information except the price sequences. 
+\\\\To make the comparison more clear, an additional index is introduced. F-ratio index combines the WCS and BCS together, its equation is defined as:
+\begin{equation}
+    F(\Pi) = \frac{k WCS(\Pi)}{BCS(\Pi)} = \frac{k\sum_{i=1}^k \sum_{s=1}^{s_i} d^2(x_s^{(i)},m_i)}{\sum_{i=1}^k s_i d^2(m,m_i)}
+    \label{eq:fratio}
+\end{equation}
+Lower F-ratio means better partitions. It's worth mentioning that DTW is selected as the distance measure and used to compute the centers of cluster. This decision is made to guarantee the local scaling invariance mentioned in the guideline. Figure~\ref{fig:dtwcode} shows the pseudocode of DTW.
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[width=0.6 \columnwidth]{dtw.png}
+    \caption{Pseudocode of DTW}
+    \label{fig:dtwcode}
+\end{figure} 
+\\\\There are other internal indexes such as the Silhouette Coefficient \cite{rousseeuw1987silhouettes} and Calinski-Harabasz index \cite{calinski1974dendrite}, but they indeed share the same objective with F-ratio but with slightly different formula, and hence they are not used as the metrics in this project.
+
+
+\subsection{Main clustering algorithm}
+The main clustering algorithm chosen to compare different representations is K-means. As mentioned before, its objective function is the WCS. To get the best partitions, traditional K-means adpots a greedy strategy, it works by: (1) first randomly initialise k cluster centers; (2) assign each data point to a cluster according to the distance measure; (3) updating the cluster centers with the mathematical mean of the data points in each cluster; (4) repeat step 2 and 3 until the stopping criteria are reached. 
+
 
 
 \section{Comparison of PIP, PAA and Down Sampling}

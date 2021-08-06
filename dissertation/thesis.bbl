@@ -104,12 +104,6 @@
 \newblock Adaptive fuzzy c-shells clustering and detection of ellipses.
 \newblock {\em IEEE Transactions on Neural Networks 3}, 5 (1992), 643--662.
 
-\bibitem{davies1979cluster}
-{\sc Davies, D.~L., and Bouldin, D.~W.}
-\newblock A cluster separation measure.
-\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
-  2 (1979), 224--227.
-
 \bibitem{davis2014introduction}
 {\sc Davis, R.~A.}
 \newblock Introduction to statistical analysis of time series, 2014.

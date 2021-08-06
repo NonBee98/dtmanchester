@@ -53,8 +53,8 @@
 \BOOKMARK [1][-]{section.6.3}{Chapter Summary}{chapter.6}% 53
 \BOOKMARK [0][-]{chapter.7}{Experiment and Evaluation}{}% 54
 \BOOKMARK [1][-]{section.7.1}{Experimental Settings}{chapter.7}% 55
-\BOOKMARK [2][-]{subsection.7.1.1}{Numerical Metrics}{section.7.1}% 56
-\BOOKMARK [2][-]{subsection.7.1.2}{Measures to counteract the effect of randomness}{section.7.1}% 57
-\BOOKMARK [2][-]{subsection.7.1.3}{The choice of group centers}{section.7.1}% 58
+\BOOKMARK [2][-]{subsection.7.1.1}{The choice of group centers}{section.7.1}% 56
+\BOOKMARK [2][-]{subsection.7.1.2}{Numerical Metrics}{section.7.1}% 57
+\BOOKMARK [2][-]{subsection.7.1.3}{Main clustering algorithm}{section.7.1}% 58
 \BOOKMARK [1][-]{section.7.2}{Comparison of PIP, PAA and Down Sampling}{chapter.7}% 59
-\BOOKMARK [0][-]{figure.7.3}{Bibliography}{}% 60
+\BOOKMARK [0][-]{figure.7.4}{Bibliography}{}% 60
